@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{Giới thiệu}{3}{0}{1}
-\beamer@sectionintoc {2}{Khái niệm cơ bản}{7}{0}{2}
-\beamer@sectionintoc {3}{Đường đi}{12}{0}{3}
-\beamer@sectionintoc {4}{Thuật toán duyệt}{18}{0}{4}
-\beamer@sectionintoc {5}{Cây}{33}{0}{5}
