@@ -64,6 +64,16 @@ Ví dụ thực tế theo VNOI:
 
 \begin{tikzpicture}[scale=1.2, every node/.style={circle,draw, fill=blue!10}]
 
+\node (a) at (0,0) {1};
+\node (b) at (2,0) {2};
+\node (c) at (1,1.5) {3};
+\node (d) at (3,1.5) {4};
+
+\draw[thick] (a)--(b);
+\draw[thick] (a)--(c);
+\draw[thick] (b)--(c);
+\draw[thick] (b)--(d);
+
 \end{tikzpicture}
 
 \column{0.55\textwidth}
