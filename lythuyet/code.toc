@@ -1,7 +1,8 @@
+\babel@toc {vietnamese}{}\relax 
 \beamer@sectionintoc {1}{Giới thiệu về đồ thị}{3}{0}{1}
 \beamer@sectionintoc {2}{Khái niệm về đồ thị}{4}{0}{2}
 \beamer@sectionintoc {3}{Phân loại đồ thị}{4}{0}{3}
 \beamer@sectionintoc {4}{Cách dựng đồ thị}{4}{0}{4}
 \beamer@sectionintoc {5}{Thuật toán DFS}{4}{0}{5}
 \beamer@sectionintoc {6}{Thuật toán BFS}{4}{0}{6}
-\beamer@sectionintoc {7}{Cây}{4}{0}{7}
+\beamer@sectionintoc {7}{Tổng kết}{4}{0}{7}
