@@ -3,48 +3,69 @@
 \usecolortheme{rose}
 
 \usepackage{graphicx}
-\usepackage[utf8]{vietnam}
-\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese]{babel}
 \usepackage{tikz}
+\usetikzlibrary{shadows}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{xcolor}
+\usepackage{listings}
+\usepackage{tcolorbox}
 
+\tcbuselibrary{skins,breakable}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{footline}[frame number]
 
-\title{Lý thuyết đồ thị cơ bản}
-\author{Hà Minh Đức}
-\date{}
-
 \usebackgroundtemplate{
-    \includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}
+    \parbox[c][\paperheight][c]{\paperwidth}{
+        \includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}
+    }
 }
 
 \begin{document}
 
-\frame{\titlepage}
+\begin{frame}[plain]
+\centering
+\vspace{1cm}
 
+\begin{tcolorbox}[
+    enhanced,
+    colback=blue!70!black,
+    colframe=blue!70!black,
+    width=0.75\textwidth,
+    arc=4mm,
+    boxrule=0pt,
+    drop shadow
+]
+\centering
+{\color{white}\LARGE \textbf{LÝ THUYẾT ĐỒ THỊ}}\\[0.2cm]
+{\color{white}\large Thuật toán DFS và BFS}
+\end{tcolorbox}
+
+\vspace{1.2cm}
+
+{\Large \textbf{Nguyễn Văn Phú - Hà Minh Đức - Nguyễn Tấn Đạt}}\\[0.4cm]
+THPT Chuyên ĐHV\\[0.6cm]
+
+Ngày 18 tháng 3 năm 2026
+\end{frame}
+
+% ===== TOC =====
 \begin{frame}{Tổng quát}
-    \tableofcontents
+\tableofcontents
 \end{frame}
 
 \section{Giới thiệu về đồ thị}
-
 \begin{frame}{Giới thiệu về đồ thị}
-    đồ thị là do something
+    Đồ thị là ...
 \end{frame}
 
 \section{Khái niệm về đồ thị}
-
 \section{Phân loại đồ thị}
-
 \section{Cách dựng đồ thị}
-
 \section{Thuật toán DFS}
-
-
-
 
 \begin{frame}{DFS - Duyệt theo chiều sâu}
 
@@ -251,30 +272,21 @@
 }
 
 \section{Thuật toán BFS}
+\section{Tổng kết}
 
-\section{Cây}
+% ===== END =====
+\begin{frame}{Kết thúc}
+\centering
+\vspace{0.8cm}
 
-\begin{frame}{kết thúc}
+{\Huge \textbf{Cảm ơn thầy cô và các bạn đã theo dõi!}}
 
-    \centering
+\vspace{1cm}
+{\Large Xin chân thành cảm ơn}
 
-    \vspace{0.8cm}
+\vspace{1.2cm}
 
-    {\Huge \textbf{Cảm ơn thầy cô và các bạn đã theo dõi!}}
-
-    \vspace{1cm}
-
-    {\Large Xin chân thành cảm ơn}
-
-    \vspace{1.2cm}
-
-    \begin{block}{Tài liệu tham khảo}
-        \centering
-        \texttt{https://wiki.vnoi.info}
-    \end{block}
-
-    \vfill
-    {\small Hà Minh Đức}
+\vfill
 
 \end{frame}
 
