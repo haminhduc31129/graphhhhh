@@ -3,5 +3,5 @@
 \beamer@sectionintoc {3}{Phân loại đồ thị}{4}{0}{3}
 \beamer@sectionintoc {4}{Cách dựng đồ thị}{4}{0}{4}
 \beamer@sectionintoc {5}{Thuật toán DFS}{4}{0}{5}
-\beamer@sectionintoc {6}{Thuật toán BFS}{4}{0}{6}
-\beamer@sectionintoc {7}{Cây}{4}{0}{7}
+\beamer@sectionintoc {6}{Thuật toán BFS}{11}{0}{6}
+\beamer@sectionintoc {7}{Cây}{11}{0}{7}
