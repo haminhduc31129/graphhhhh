@@ -1,0 +1,686 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{rose}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\usepackage[utf8]{vietnam}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\title{Lý thuyết đồ thị cơ bản}
+\subtitle{Cấu trúc dữ liệu và Giải thuật}
+\author{Hà Minh Đức}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Nội dung}
+\tableofcontents
+\end{frame}
+
+\section{Giới thiệu}
+
+\begin{frame}{Đồ thị là gì?}
+
+\begin{block}{Khái niệm}
+Đồ thị $G = (V, E)$ là một cấu trúc rời rạc gồm tập các đỉnh $V$ và tập các cạnh $E$ nối các cặp đỉnh trong $V$.
+\end{block}
+
+\pause
+
+\begin{alertblock}{Thành phần và Thuật ngữ}
+\begin{itemize}
+\item \textbf{Đỉnh (Vertex/Node):} Đối tượng cần biểu diễn.
+\item \textbf{Cạnh (Edge/Arc):} Quan hệ giữa hai đối tượng.
+\item \textbf{Bậc (Degree):} $deg(v)$ là số cạnh kề với đỉnh $v$. 
+\item \textbf{Định lý bắt tay:} $\sum_{v \in V} deg(v) = 2|E|$.
+\end{itemize}
+\end{alertblock}
+
+\pause
+Ví dụ thực tế theo VNOI:
+\begin{itemize}
+\item \textbf{Mạng xã hội:} Đỉnh là người dùng, cạnh là quan hệ bạn bè.
+\item \textbf{Giao thông:} Đỉnh là ngã tư, cạnh là các cung đường nối.
+\item \textbf{Lập trình:} Biểu diễn phụ thuộc giữa các module/thư viện.
+\end{itemize}
+
+\end{frame}
+
+%--------------------------------
+\begin{frame}{Ví dụ đồ thị}
+
+\begin{columns}
+
+\column{0.45\textwidth}
+
+\begin{tikzpicture}[scale=1.2, every node/.style={circle,draw, fill=blue!10}]
+
+\node (a) at (0,0) {1};
+\node (b) at (2,0) {2};
+\node (c) at (1,1.5) {3};
+\node (d) at (3,1.5) {4};
+
+\draw[thick] (a)--(b);
+\draw[thick] (a)--(c);
+\draw[thick] (b)--(c);
+\draw[thick] (b)--(d);
+
+\end{tikzpicture}
+
+\column{0.55\textwidth}
+
+\begin{itemize}
+\item \textbf{Tập đỉnh:} $V = \{1, 2, 3, 4\}$
+\item \textbf{Tập cạnh:} $E = \{(1,2), (1,3), (2,3), (2,4)\}$
+\item \textbf{Bậc của các đỉnh:}
+    \begin{itemize}
+        \item $deg(1) = 2$
+        \item $deg(2) = 3$ (Đỉnh có bậc cao nhất)
+        \item $deg(3) = 2, deg(4) = 1$
+    \end{itemize}
+\item \textbf{Tổng bậc:} $2 + 3 + 2 + 1 = 8 = 2 \times |E|$
+\end{itemize}
+
+\end{columns}
+
+\end{frame}
+
+\section{Khái niệm cơ bản}
+
+\begin{frame}{Định nghĩa đồ thị}
+
+\begin{block}{Định nghĩa hình thức}
+Đồ thị được ký hiệu $G=(V,E)$. Trong đó $V \neq \emptyset$ và $E$ là tập các cặp $(u, v)$ với $u, v \in V$.
+\end{block}
+
+\pause
+
+\begin{itemize}
+\item $V$ : Tập các đỉnh (Vertices).
+\item $E$ : Tập các cạnh (Edges).
+\item \textbf{Đồ thị đơn:} Không có đa cạnh và không có khuyên (loop).
+\item \textbf{Đồ thị có trọng số:} Mỗi cạnh đi kèm một giá trị số $w(u, v)$.
+\end{itemize}
+
+\pause
+
+\begin{exampleblock}{Cách lưu trữ (Biểu diễn đồ thị)}
+\begin{itemize}
+    \item \textbf{Ma trận kề:} Mảng 2 chiều $A[V][V]$. Tốn $O(V^2)$ bộ nhớ.
+    \item \textbf{Danh sách kề:} Mảng các vector/list. Tốn $O(V+E)$ bộ nhớ (\textit{Ưu tiên dùng}).
+\end{itemize}
+\end{exampleblock}
+
+\end{frame}
+
+
+\begin{frame}{Đồ thị vô hướng}
+
+\begin{columns}
+
+\column{0.5\textwidth}
+\begin{itemize}
+\item Cạnh $\{u,v\}$ không có tính thứ tự.
+\item Quan hệ đối xứng: Nếu có đường từ $u \to v$ thì chắc chắn có $v \to u$.
+\item \textbf{Tính liên thông:} Đồ thị gọi là liên thông nếu có đường đi giữa mọi cặp đỉnh.
+\end{itemize}
+
+\column{0.5\textwidth}
+
+\begin{tikzpicture}[every node/.style={circle,draw, fill=green!10}]
+
+\node (1) at (0,0) {1};
+\node (2) at (2,0) {2};
+\node (3) at (1,1.5) {3};
+
+\draw[thick] (1)--(2);
+\draw[thick] (2)--(3);
+\draw[thick] (3)--(1);
+
+\end{tikzpicture}
+
+\end{columns}
+
+\end{frame}
+
+
+\begin{frame}{Đồ thị có hướng}
+
+\begin{columns}
+
+\column{0.5\textwidth}
+\begin{itemize}
+\item Cạnh $(u,v)$ có hướng (\textit{Cung}).
+\item $u$ là đỉnh đầu, $v$ là đỉnh cuối.
+\item \textbf{Liên thông mạnh:} Mọi cặp $(u, v)$ đều có đường đi từ $u \to v$ và $v \to u$.
+\item \textbf{Bậc:} Gồm bậc vào $deg^-$ và bậc ra $deg^+$.
+\end{itemize}
+
+\column{0.5\textwidth}
+
+\begin{tikzpicture}[>=stealth, every node/.style={circle,draw, fill=red!10}]
+
+\node (1) at (0,0) {1};
+\node (2) at (2,0) {2};
+\node (3) at (1,1.5) {3};
+
+\draw[->, thick] (1)--(2);
+\draw[->, thick] (2)--(3);
+\draw[->, thick] (3)--(1);
+
+\end{tikzpicture}
+
+\end{columns}
+
+\end{frame}
+
+\section{Đường đi}
+
+\begin{frame}{Đường đi (Path)}
+
+\begin{block}{Định nghĩa chi tiết}
+Đường đi độ dài $k$ từ $u$ đến $v$ là dãy các đỉnh $x_0, x_1, ..., x_k$ sao cho $x_0 = u, x_k = v$ và $(x_i, x_{i+1}) \in E$.
+\end{block}
+
+\pause
+
+\begin{exampleblock}{Phân loại}
+\begin{itemize}
+    \item \textbf{Đường đi đơn:} Không có đỉnh nào lặp lại.
+    \item \textbf{Đường đi sơ cấp:} Không có cạnh nào lặp lại.
+    \item \textbf{Độ dài đường đi:} Số lượng cạnh trên đường đi đó (hoặc tổng trọng số cạnh).
+\end{itemize}
+\end{exampleblock}
+
+\end{frame}
+
+
+\begin{frame}{Ví dụ đường đi}
+
+\begin{center}
+
+\begin{tikzpicture}[every node/.style={circle,draw, fill=yellow!10}]
+
+\node (1) at (0,0) {1};
+\node (2) at (1.5,0) {2};
+\node (3) at (3,0) {3};
+\node (4) at (4.5,0) {4};
+
+\draw[thick] (1)--(2);
+\draw[thick] (2)--(3);
+\draw[thick] (3)--(4);
+
+\end{tikzpicture}
+\end{center}
+
+\pause
+\textbf{Đường đi từ 1 tới 4:} $1 \to 2 \to 3 \to 4$.
+\begin{itemize}
+    \item Số đỉnh: 4
+    \item Số cạnh (Độ dài): 3
+    \item Đây là một \textbf{đường đi đơn}.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Chu trình (Cycle)}
+
+\begin{block}{Định nghĩa}
+Chu trình là đường đi có đỉnh bắt đầu trùng với đỉnh kết thúc ($v_1 \equiv v_k$) và có ít nhất một cạnh.
+\end{block}
+
+\pause
+
+\begin{center}
+
+\begin{tikzpicture}[every node/.style={circle,draw, fill=orange!10}]
+
+\node (1) at (0,0) {1};
+\node (2) at (2,0) {2};
+\node (3) at (1,1.5) {3};
+
+\draw[thick] (1)--(2)--(3)--cycle;
+
+\end{tikzpicture}
+\end{center}
+
+\textbf{Lưu ý:} Đồ thị không có chu trình được gọi là \textit{Acyclic graph}. Nếu là đồ thị có hướng không chu trình thì gọi là \textbf{DAG} (Directed Acyclic Graph).
+
+\end{frame}
+
+\section{Thuật toán duyệt}
+
+\begin{frame}{Duyệt đồ thị (Graph Traversal)}
+
+Mục tiêu: Ghé thăm tất cả các đỉnh có thể đến được từ một đỉnh xuất phát.
+
+\begin{itemize}
+\item \textbf{DFS (Depth First Search):} Ưu tiên đi sâu.
+\item \textbf{BFS (Breadth First Search):} Ưu tiên đi rộng (theo lớp).
+\end{itemize}
+
+\pause
+
+\begin{alertblock}{Độ phức tạp thuật toán}
+Sử dụng danh sách kề: $O(V + E)$.\\
+Sử dụng ma trận kề: $O(V^2)$.
+\end{alertblock}
+
+\pause
+\textbf{Ứng dụng chính:}
+\begin{itemize}
+\item Tìm thành phần liên thông.
+\item Kiểm tra đồ thị hai phía (Bipartite Graph).
+\item Tìm đường đi ngắn nhất trên đồ thị không trọng số (BFS).
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{DFS - Duyệt theo chiều sâu}
+
+\begin{block}{Ý tưởng và Cấu trúc}
+\begin{itemize}
+\item Sử dụng \textbf{Ngăn xếp (Stack)} hoặc \textbf{Đệ quy}.
+\item Thăm một đỉnh kề, sau đó tiếp tục thăm ngay đỉnh kề của đỉnh đó cho đến khi gặp ngõ cụt mới quay lui (backtrack).
+\end{itemize}
+\end{block}
+
+\pause
+\textbf{Ứng dụng chuyên sâu:}
+\begin{itemize}
+\item Tìm các khớp (Articulation points) và cầu (Bridges).
+\item Phân tách các thành phần liên thông mạnh (Tarjan, Kosaraju).
+\item Sắp xếp Topo (Topological Sort).
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{DFS Step 1}
+
+\centering
+
+\begin{tikzpicture}[
+scale=1.4,
+every node/.style={circle,draw,minimum size=0.9cm},
+visited/.style={fill=green!40},
+unvisited/.style={fill=gray!20}
+]
+
+\node[visited] (1) at (0,0) {1};
+\node[unvisited] (2) at (2,1) {2};
+\node[unvisited] (3) at (2,-1) {3};
+\node[unvisited] (4) at (4,1.5) {4};
+\node[unvisited] (5) at (4,-0.2) {5};
+\node[unvisited] (6) at (6,-0.5) {6};
+
+\draw (1)--(2);
+\draw (1)--(3);
+\draw (2)--(4);
+\draw (3)--(5);
+\draw (5)--(6);
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+Bắt đầu DFS từ đỉnh **1**
+
+\end{frame}
+
+\begin{frame}{DFS Step 2}
+
+\centering
+
+\begin{tikzpicture}[
+scale=1.4,
+every node/.style={circle,draw,minimum size=0.9cm},
+visited/.style={fill=green!40},
+unvisited/.style={fill=gray!20}
+]
+
+\node[visited] (1) at (0,0) {1};
+\node[visited] (2) at (2,1) {2};
+\node[unvisited] (3) at (2,-1) {3};
+\node[visited] (4) at (4,1.5) {4};
+\node[unvisited] (5) at (4,-0.2) {5};
+\node[unvisited] (6) at (6,-0.5) {6};
+
+\draw[thick] (1)--(2);
+\draw[thick] (2)--(4);
+\draw (1)--(3);
+\draw (3)--(5);
+\draw (5)--(6);
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+DFS đi sâu: **1 → 2 → 4**
+
+\end{frame}
+
+\begin{frame}{DFS Step 3}
+
+\centering
+
+\begin{tikzpicture}[
+scale=1.4,
+every node/.style={circle,draw,minimum size=0.9cm},
+visited/.style={fill=green!40},
+unvisited/.style={fill=gray!20}
+]
+
+\node[visited] (1) at (0,0) {1};
+\node[visited] (2) at (2,1) {2};
+\node[visited] (3) at (2,-1) {3};
+\node[visited] (4) at (4,1.5) {4};
+\node[visited] (5) at (4,-0.2) {5};
+\node[visited] (6) at (6,-0.5) {6};
+
+\draw[thick] (1)--(2);
+\draw[thick] (2)--(4);
+\draw[thick] (1)--(3);
+\draw[thick] (3)--(5);
+\draw[thick] (5)--(6);
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+Backtrack và tiếp tục:  
+**1 → 2 → 4 → quay lui → 3 → 5 → 6**
+
+\end{frame}
+
+\begin{frame}[fragile]{Mã giả DFS}
+
+\textbf{Cài đặt DFS bằng đệ quy (C++)}
+
+\begin{verbatim}
+vector<int> adj[N];
+bool visited[N];
+
+void dfs(int u){
+    visited[u] = true;
+    cout << u << " ";
+
+    for(int v : adj[u]){
+        if(!visited[v]){
+            dfs(v);
+        }
+    }
+}
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}{BFS - Duyệt theo chiều rộng}
+
+\begin{block}{Ý tưởng và Cấu trúc}
+\begin{itemize}
+\item Sử dụng \textbf{Hàng đợi (Queue)}.
+\item Thăm tất cả các đỉnh kề trực tiếp (khoảng cách 1), sau đó mới thăm các đỉnh ở khoảng cách 2, 3...
+\end{itemize}
+\end{block}
+
+\pause
+\textbf{Tính chất quan trọng:}
+\begin{itemize}
+\item \textbf{Đường đi ngắn nhất:} BFS luôn tìm được đường đi ngắn nhất (tính bằng số cạnh) từ đỉnh nguồn tới mọi đỉnh khác.
+\item \textbf{Cây BFS:} Tập hợp các cạnh được sử dụng để thăm đỉnh mới tạo thành một cây.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{BFS Step 1}
+
+\centering
+
+\begin{tikzpicture}[
+scale=1.4,
+every node/.style={circle,draw,minimum size=0.9cm},
+visited/.style={fill=green!40},
+unvisited/.style={fill=gray!20}
+]
+
+\node[visited] (1) at (0,0) {1};
+\node[unvisited] (2) at (2,1) {2};
+\node[unvisited] (3) at (2,-1) {3};
+\node[unvisited] (4) at (4,1.5) {4};
+\node[unvisited] (5) at (4,-0.2) {5};
+\node[unvisited] (6) at (6,-0.5) {6};
+
+\draw (1)--(2);
+\draw (1)--(3);
+\draw (2)--(4);
+\draw (3)--(5);
+\draw (5)--(6);
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+Bắt đầu BFS từ đỉnh **1**
+
+Queue: [1]
+
+\end{frame}
+
+\begin{frame}{BFS Step 2}
+
+\centering
+
+\begin{tikzpicture}[
+scale=1.4,
+every node/.style={circle,draw,minimum size=0.9cm},
+visited/.style={fill=green!40},
+unvisited/.style={fill=gray!20}
+]
+
+\node[visited] (1) at (0,0) {1};
+\node[visited] (2) at (2,1) {2};
+\node[visited] (3) at (2,-1) {3};
+\node[unvisited] (4) at (4,1.5) {4};
+\node[unvisited] (5) at (4,-0.2) {5};
+\node[unvisited] (6) at (6,-0.5) {6};
+
+\draw[thick] (1)--(2);
+\draw[thick] (1)--(3);
+\draw (2)--(4);
+\draw (3)--(5);
+\draw (5)--(6);
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+Thăm các đỉnh kề của 1: **2, 3**
+
+Queue: [2,3]
+
+\end{frame}
+
+\begin{frame}{BFS Step 3}
+
+
+    
+\centering
+
+
+\begin{tikzpicture}[
+scale=1.4,
+every node/.style={circle,draw,minimum size=0.9cm},
+visited/.style={fill=green!40},
+unvisited/.style={fill=gray!20}
+]
+
+\node[visited] (1) at (0,0) {1};
+\node[visited] (2) at (2,1) {2};
+\node[visited] (3) at (2,-1) {3};
+\node[visited] (4) at (4,1.5) {4};
+\node[visited] (5) at (4,-0.2) {5};
+\node[unvisited] (6) at (6,-0.5) {6};
+
+\draw[thick] (1)--(2);
+\draw[thick] (1)--(3);
+\draw[thick] (2)--(4);
+\draw[thick] (3)--(5);
+\draw (5)--(6);
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+Từ **2 và 3** thăm tiếp: **4, 5**
+
+Queue: [4,5]
+
+\end{frame}
+
+\begin{frame}[fragile]{Mã mẫu BFS}
+
+\textbf{Cài đặt BFS bằng hàng đợi (C++)}
+
+\begin{verbatim}
+vector<int> adj[N];bool visited[N];
+void bfs(int s){
+    queue<int> q;visited[s] = true;
+    q.push(s);
+    while(!q.empty()){
+        int u = q.front();
+        q.pop();
+        cout << u << " ";
+        for(int v : adj[u])if(!visited[v]){
+            visited[v] = true;
+            q.push(v);
+        }
+    }
+}
+\end{verbatim}
+
+\end{frame}
+
+\section{Cây}
+
+\begin{frame}{Cây (Tree)}
+
+\begin{block}{Định nghĩa}
+Cây là một đồ thị vô hướng, liên thông và \textbf{không có chu trình}.
+\end{block}
+
+\pause
+
+\begin{alertblock}{Các tính chất tương đương}
+Nếu đồ thị $G$ có $n$ đỉnh, các điều sau là tương đương:
+\begin{itemize}
+\item $G$ là một cây.
+\item $G$ liên thông và có đúng $n-1$ cạnh.
+\item Giữa 2 đỉnh bất kỳ có duy nhất một đường đi đơn.
+\item $G$ không có chu trình nhưng thêm 1 cạnh bất kỳ sẽ tạo ra chu trình.
+\end{itemize}
+\end{alertblock}
+
+\end{frame}
+
+
+%--------------------------------
+\begin{frame}{Ví dụ đồ thị dạng cây}
+
+\centering
+
+\begin{tikzpicture}[
+scale=1.4,
+every node/.style={circle,draw, fill=green!20, minimum size=0.9cm}
+]
+
+\node (1) at (0,2) {1};
+
+\node (2) at (-2,1) {2};
+\node (3) at (2,1) {3};
+
+\node (4) at (-3,0) {4};
+\node (5) at (-1,0) {5};
+\node (6) at (1,0) {6};
+\node (7) at (3,0) {7};
+
+\draw (1)--(2);
+\draw (1)--(3);
+\draw (2)--(4);
+\draw (2)--(5);
+\draw (3)--(6);
+\draw (3)--(7);
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+\textbf{Đặc điểm:}
+\begin{itemize}
+\item Đồ thị liên thông
+\item Không chứa chu trình
+\item Với $n$ đỉnh thì có đúng $n-1$ cạnh
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Ứng dụng thực tế}
+
+\begin{columns}
+
+\column{0.5\textwidth}
+\textbf{Kỹ thuật \& Công nghệ}
+\begin{itemize}
+\item \textbf{Routing:} Định tuyến gói tin trên Internet (Shortest Path).
+\item \textbf{Database:} Lập chỉ mục (Index) bằng cấu trúc cây.
+\item \textbf{AI:} Tìm kiếm trạng thái trong không gian bài toán (Game tree).
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Đời sống \& Khoa học}
+\begin{itemize}
+\item \textbf{Logistics:} Tối ưu hóa quãng đường vận chuyển.
+\item \textbf{Sinh học:} Biểu diễn cấu trúc phân tử, ADN.
+\item \textbf{Quy hoạch:} Thiết kế mạng lưới điện, nước đô thị.
+\end{itemize}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Kết thúc}
+
+\centering
+
+\vspace{0.8cm}
+
+{\Huge \textbf{Cảm ơn thầy cô và các bạn đã theo dõi!}}
+
+\vspace{1cm}
+
+{\Large Xin chân thành cảm ơn}
+
+\vspace{1.2cm}
+
+\begin{block}{Tài liệu tham khảo}
+\centering
+\texttt{https://wiki.vnoi.info}
+\end{block}
+
+\vfill
+{\small Hà Minh Đức}
+
+\end{frame}
+
+\end{document}
