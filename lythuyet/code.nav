@@ -33,16 +33,20 @@
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\slideentry {5}{0}{7}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@sectionpages {4}{10}}
-\headcommand {\beamer@subsectionpages {4}{10}}
-\headcommand {\sectionentry {6}{Thuật toán BFS}{11}{Thuật toán BFS}{0}}
-\headcommand {\beamer@sectionpages {11}{10}}
-\headcommand {\beamer@subsectionpages {11}{10}}
-\headcommand {\sectionentry {7}{Tổng kết}{11}{Tổng kết}{0}}
-\headcommand {\slideentry {7}{0}{1}{11/11}{}{0}}
+\headcommand {\slideentry {5}{0}{8}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\beamer@sectionpages {11}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\slideentry {5}{0}{9}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@sectionpages {4}{12}}
+\headcommand {\beamer@subsectionpages {4}{12}}
+\headcommand {\sectionentry {6}{Thuật toán BFS}{13}{Thuật toán BFS}{0}}
+\headcommand {\beamer@sectionpages {13}{12}}
+\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\sectionentry {7}{Tổng kết}{13}{Tổng kết}{0}}
+\headcommand {\slideentry {7}{0}{1}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@partpages {1}{13}}
+\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\beamer@sectionpages {13}{13}}
+\headcommand {\beamer@documentpages {13}}
+\headcommand {\gdef \inserttotalframenumber {13}}
