@@ -5,9 +5,10 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[T5]{fontenc}
-\usepackage[vietnamese]{babel}
+% \usepackage[vietnamese]{babel}
 \usepackage{tikz}
 \usetikzlibrary{shadows}
+
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{xcolor}
@@ -59,12 +60,176 @@
 \end{frame}
 
 \section{Giới thiệu về đồ thị}
-\begin{frame}{Giới thiệu về đồ thị}
-    Đồ thị là ...
+\begin{frame}{Giới thiệu}
+    \begin{block}{}
+
+        \textcolor{orange!100}{Trước khi đến với \textcolor{red}{\textbf{lý thuyết đồ thị}}, ta xét một bài toán nổi tiếng:}
+        \pause
+        \begin{itemize}
+            \item[$\rightarrow$] Thành phố \textbf{Königsberg} (nay là Kaliningrad, Nga) nằm hai bên sông Pregel, gồm 2 hòn đảo lớn.
+                  \pause
+            \item[$\rightarrow$] Các khu vực này được nối với nhau bởi \textbf{7 cây cầu}.
+        \end{itemize}
+    \end{block}
+
+    \begin{center}
+        \includegraphics[width=0.36\textwidth]{graph1.png}
+    \end{center}
+
+    \begin{itemize}
+        \pause
+        \item[$\rightarrow$] \textcolor{red}{Câu hỏi đặt ra}: Có tồn tại đường đi qua mỗi cây cầu \textbf{đúng một lần} hay không?
+              \pause
+        \item[$\rightarrow$] Bài toán này đã được \textbf{Leonhard Euler} giải vào thế kỉ XVIII.
+        \item[$\rightarrow$] Từ đó, \textbf{lý thuyết đồ thị} ra đời.
+    \end{itemize}
+
 \end{frame}
 
 \section{Khái niệm về đồ thị}
+\begin{frame}{Định Nghĩa}
+    \begin{alertblock}{\textcolor{black}{Hình ảnh dưới đây là một ví dụ về \textbf{đồ thị}:}}
+        \begin{center}
+            \includegraphics[width=0.3\textwidth]{graph2.png}
+        \end{center}
+    \end{alertblock}
+    \pause
+    
+    \begin{itemize}
+        \item Các vòng tròn gọi là \textbf{đỉnh (vertices/nodes)}.
+              \pause
+        \item Các đoạn nối giữa các đỉnh gọi là \textbf{cạnh (edges)}.
+              \pause
+        \item Đồ thị là tập hợp các đỉnh được nối với nhau bởi các cạnh.
+              \pause
+        \item Ký hiệu là:
+    \end{itemize}
+
+    \begin{center}
+        $G = (V, E)$
+    \end{center}
+    \pause
+
+    \begin{itemize}
+        \item $V$: tập các đỉnh, $E$: tập các cạnh.
+        \item Mỗi cạnh có dạng $\{u, v\}$.
+              \pause
+        \item Ví dụ: $G = (\{1,2,3\},\; \{\{1,2\}, \{2,3\}\})$
+    \end{itemize}
+
+\end{frame}
+
 \section{Phân loại đồ thị}
+
+\begin{frame}{CÁC DẠNG ĐỒ THỊ}
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{block}{\textbf{Đơn đồ thị}}
+            
+            \begin{itemize}
+                \item[$\rightarrow$] Không có khuyên.
+                \item[$\rightarrow$] Không có cạnh song song.
+                \item[$\rightarrow$] Không trọng số.
+            \end{itemize}
+        \end{block}
+
+        \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[width=\textwidth]{dondothi.png}
+        \end{center}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}{CÁC DẠNG ĐỒ THỊ}
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{block}{Đa đồ thị:}
+            
+            \begin{itemize}
+                \item Có cạnh song song.
+                \item Có thể có khuyên.
+            \end{itemize}
+        \end{block}
+
+        \vspace{0.3cm}
+        \begin{alertblock}{Ghi chú:}
+            
+            \begin{itemize}
+                \item Khuyên: $(u,u)$
+                \item Song song: nhiều cạnh giữa 2 đỉnh
+            \end{itemize}
+        \end{alertblock}
+
+        \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[width=\textwidth]{dadothu.png}
+        \end{center}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}{CÁC DẠNG ĐỒ THỊ}
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Đồ thị vô hướng:}
+        \begin{itemize}
+            \item Cạnh không có hướng.
+            \item $uv = vu$.
+        \end{itemize}
+
+        \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[width=\textwidth]{vohuong.png}
+        \end{center}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}{CÁC DẠNG ĐỒ THỊ}
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Đồ thị có hướng:}
+        \begin{itemize}
+            \item Cạnh có hướng.
+            \item $uv \neq vu$.
+        \end{itemize}
+
+        \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[width=\textwidth]{cohuong.png}
+        \end{center}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}{CÁC DẠNG ĐỒ THỊ}
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Đồ thị có trọng số:}
+        \begin{itemize}
+            \item Mỗi cạnh có giá trị.
+        \end{itemize}
+
+        \vspace{0.3cm}
+        \textbf{Không trọng số:}
+        \begin{itemize}
+            \item Cạnh không có giá trị.
+        \end{itemize}
+
+        \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[width=\textwidth]{trongso.png}
+        \end{center}
+    \end{columns}
+
+\end{frame}
+
 \section{Cách dựng đồ thị}
 \section{Thuật toán DFS}
 
@@ -93,7 +258,7 @@
         \end{itemize}
     \end{block}
     \pause
-    \begin{block}{Cách hoạt động}
+    \begin{exampleblock}{Cách hoạt động}
         \begin{itemize}
             \item Bắt đầu từ một đỉnh
             \item Đi sang một đỉnh kề \textbf{chưa thăm}
@@ -101,7 +266,7 @@
             \item Quay lui lại đỉnh trước
             \item Tiếp tục với nhánh khác cho đến khi duyệt hết toàn bộ đỉnh của đồ thị
         \end{itemize}
-    \end{block}
+    \end{exampleblock}
 \end{frame}
 
 {
@@ -348,9 +513,9 @@
         \pause
         \begin{itemize}
             \item[$\rightarrow$] Ý nghĩa của cái tên \textbf{DFS} (duyệt theo chiều sâu) tức là nó sẽ đi sâu nhất có thể từ 1 nhánh gốc của đỉnh được gọi trước, sau đó mới duyệt đến các nhánh khác.
-            \pause
+                  \pause
             \item[$\rightarrow$] Nếu sử dụng \textbf{DFS} cho 1 đồ thị liên thông thì toàn bộ cách đỉnh của đồ thị đều sẽ được thăm ít nhất 1 lần.
-            \pause
+                  \pause
             \item[$\rightarrow$] Theo mã giả cho cách hoạt động trên thì hàm DFS hoạt động với đệ quy cùng với một mảng bất kì (thông thường là \textbf{vis}, \textbf{visited}, \textbf{hoặc là bất kì cái tên nào khác mà bạn có thể nghĩ ra}) dùng để biểu diễn rằng đỉnh n đã được thăm thì độ phức tạp của thuật toán DFS xấp xỉ \textbf{O(V + E)}
         \end{itemize}
     \end{block}
@@ -361,10 +526,10 @@
 \begin{frame}
     \begin{block}{Mã giả}
         \centering
-        
+
         \begin{minipage}{0.45\textwidth}
             \centering
-            
+
             \includegraphics[width=\textwidth]{dfs1.png}
             \textbf{\textcolor{blue!50}{c++}}
         \end{minipage}
@@ -412,7 +577,7 @@
         \end{itemize}
     \end{block}
     \pause
-    \begin{block}{Cách hoạt động}
+    \begin{exampleblock}{Cách hoạt động}
         \begin{itemize}
             \item Bắt đầu từ một đỉnh
             \item Đưa đỉnh đó vào \textbf{queue}
@@ -420,7 +585,7 @@
             \item Đưa các đỉnh đó vào queue
             \item Lặp lại cho đến khi queue rỗng
         \end{itemize}
-    \end{block}
+    \end{exampleblock}
 \end{frame}
 
 {
@@ -633,9 +798,9 @@
         \pause
         \begin{itemize}
             \item[$\rightarrow$] BFS duyệt theo từng \textbf{lớp (level)}, tức là thăm hết các đỉnh gần trước rồi mới đi xa hơn.
-            \pause
+                  \pause
             \item[$\rightarrow$] Nếu sử dụng \textbf{BFS} cho 1 đồ thị liên thông thì toàn bộ các đỉnh đều sẽ được thăm.
-            \pause
+                  \pause
             \item[$\rightarrow$] Độ phức tạp của thuật toán BFS là \textbf{O(V + E)}
         \end{itemize}
     \end{block}
@@ -644,7 +809,7 @@
 \begin{frame}
     \begin{block}{Mã giả}
         \centering
-        
+
         \begin{minipage}{0.36\textwidth}
             \centering
             \includegraphics[width=\textwidth]{bfs1.png}
