@@ -456,6 +456,7 @@ INPUT C:\Users\hamin\scoop\apps\latex\current\texmfs\install\fonts\tfm\public\sa
 INPUT C:\Users\hamin\scoop\apps\latex\current\texmfs\install\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
 INPUT C:\Users\hamin\scoop\apps\latex\current\texmfs\install\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
 INPUT C:\Users\hamin\scoop\apps\latex\current\texmfs\data\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\hamin\scoop\apps\latex\current\texmfs\install\fonts\tfm\vntex\vnr\vnssbx10.tfm
 INPUT .\code.toc
 INPUT .\code.toc
 INPUT code.toc
@@ -508,7 +509,6 @@ INPUT .\background.jpg
 INPUT .\background.jpg
 INPUT .\background.jpg
 INPUT .\background.jpg
-INPUT C:\Users\hamin\scoop\apps\latex\current\texmfs\install\fonts\tfm\vntex\vnr\vnssbx10.tfm
 INPUT .\graph2.png
 INPUT .\graph2.png
 INPUT .\graph2.png

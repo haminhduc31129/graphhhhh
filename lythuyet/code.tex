@@ -15,6 +15,7 @@
 \usepackage{listings}
 \usepackage{tcolorbox}
 \setbeamertemplate{caption}{\insertcaption}
+\setbeamertemplate{subsection in toc}[subsections numbered]
 
 \tcbuselibrary{skins,breakable}
 \setbeamertemplate{navigation symbols}{}
@@ -55,8 +56,19 @@
 \end{frame}
 
 % ===== TOC =====
-\begin{frame}{Tổng quát}
-    \tableofcontents
+\begin{frame}{Mục lục}
+    \begin{center}
+        \begin{block}{\textbf{Mục lục}}
+            \begin{center}
+                
+                \vfill
+                \begin{minipage}[c][0.5\textheight][c]{0.35\textwidth}
+                    \tableofcontents
+                \end{minipage}
+                \vfill
+            \end{center}
+        \end{block}
+    \end{center}
 \end{frame}
 
 \section{Giới thiệu về đồ thị}
@@ -94,7 +106,7 @@
         \end{center}
     \end{alertblock}
     \pause
-    
+
     \begin{itemize}
         \item Các vòng tròn gọi là \textbf{đỉnh (vertices/nodes)}.
               \pause
@@ -136,7 +148,7 @@
 
         \column{0.5\textwidth}
         \begin{exampleblock}{Ví dụ về đơn đồ thị}
-            
+
             \begin{center}
                 \includegraphics[width=\textwidth]{dondothi.png}
             \end{center}
@@ -150,7 +162,7 @@
     \begin{columns}
         \column{0.5\textwidth}
         \begin{block}{Đa đồ thị:}
-            
+
             \begin{itemize}
                 \item Có cạnh song song.
                 \item Có thể có khuyên.
@@ -159,7 +171,7 @@
 
         \vspace{0.3cm}
         \begin{alertblock}{Ghi chú:}
-            
+
             \begin{itemize}
                 \item Khuyên: $(u,u)$
                 \item Song song: nhiều cạnh giữa 2 đỉnh
