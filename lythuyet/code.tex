@@ -13,6 +13,7 @@
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{tcolorbox}
+\setbeamertemplate{caption}{\insertcaption}
 
 \tcbuselibrary{skins,breakable}
 \setbeamertemplate{navigation symbols}{}
@@ -27,34 +28,34 @@
 \begin{document}
 
 \begin{frame}[plain]
-\centering
-\vspace{1cm}
+    \centering
+    \vspace{1cm}
 
-\begin{tcolorbox}[
-    enhanced,
-    colback=blue!70!black,
-    colframe=blue!70!black,
-    width=0.75\textwidth,
-    arc=4mm,
-    boxrule=0pt,
-    drop shadow
-]
-\centering
-{\color{white}\LARGE \textbf{LÝ THUYẾT ĐỒ THỊ}}\\[0.2cm]
-{\color{white}\large Thuật toán DFS và BFS}
-\end{tcolorbox}
+    \begin{tcolorbox}[
+            enhanced,
+            colback=blue!70!black,
+            colframe=blue!70!black,
+            width=0.75\textwidth,
+            arc=4mm,
+            boxrule=0pt,
+            drop shadow
+        ]
+        \centering
+        {\color{white}\LARGE \textbf{LÝ THUYẾT ĐỒ THỊ}}\\[0.2cm]
+        {\color{white}\large Thuật toán DFS và BFS}
+    \end{tcolorbox}
 
-\vspace{1.2cm}
+    \vspace{1.2cm}
 
-{\Large \textbf{Nguyễn Văn Phú - Hà Minh Đức - Nguyễn Tấn Đạt}}\\[0.4cm]
-THPT Chuyên ĐHV\\[0.6cm]
+    {\Large \textbf{Nguyễn Văn Phú - Hà Minh Đức - Nguyễn Tấn Đạt}}\\[0.4cm]
+    THPT Chuyên ĐHV\\[0.6cm]
 
-Ngày 18 tháng 3 năm 2026
+    Ngày 18 tháng 3 năm 2026
 \end{frame}
 
 % ===== TOC =====
 \begin{frame}{Tổng quát}
-\tableofcontents
+    \tableofcontents
 \end{frame}
 
 \section{Giới thiệu về đồ thị}
@@ -72,6 +73,7 @@ Ngày 18 tháng 3 năm 2026
     \begin{block}{\textbf{MỞ ĐẦU}}
         Bài viết này sẽ giúp bạn tìm hiểu về cây \textbf{DFS} (Depth First Search Tree – DFS Tree). Cây \textbf{DFS} là một ứng dụng quan trọng có được từ kỹ thuật duyệt đồ thị ưu tiên chiều sâu, giúp giải các bài toán tìm khớp cầu và thành phần liên thông mạnh.
     \end{block}
+    \pause
     \textbf{Ứng dụng chuyên sâu:}
     \begin{itemize}
         \item Phát hiện \textbf{chu trình} (Cycle detection)
@@ -90,6 +92,7 @@ Ngày 18 tháng 3 năm 2026
             \item Thăm một đỉnh kề, sau đó tiếp tục thăm ngay đỉnh kề của đỉnh đó cho đến khi gặp ngõ cụt mới \textbf{quai lui (backtrack).}
         \end{itemize}
     \end{block}
+    \pause
     \begin{block}{Cách hoạt động}
         \begin{itemize}
             \item Bắt đầu từ một đỉnh
@@ -198,7 +201,7 @@ Ngày 18 tháng 3 năm 2026
         \end{center}
     \end{block}
     \begin{center}
-        \textcolor{blue}{Từ đỉnh 1 thì dfs tiếp tục chạy đến nhánh 2}
+        \textcolor{blue}{Từ đỉnh 1 thì DFS tiếp tục chạy đến nhánh 2}
     \end{center}
 \end{frame}
 }
@@ -339,22 +342,345 @@ Ngày 18 tháng 3 năm 2026
 \end{frame}
 }
 
+\begin{frame}
+    \begin{block}{\textbf{Tổng quát}}
+        \textbf{\hspace{0.7cm}\textcolor{orange}{Từ minh họa trên ta có thể nhận thấy rằng:}}
+        \pause
+        \begin{itemize}
+            \item[$\rightarrow$] Ý nghĩa của cái tên \textbf{DFS} (duyệt theo chiều sâu) tức là nó sẽ đi sâu nhất có thể từ 1 nhánh gốc của đỉnh được gọi trước, sau đó mới duyệt đến các nhánh khác.
+            \pause
+            \item[$\rightarrow$] Nếu sử dụng \textbf{DFS} cho 1 đồ thị liên thông thì toàn bộ cách đỉnh của đồ thị đều sẽ được thăm ít nhất 1 lần.
+            \pause
+            \item[$\rightarrow$] Theo mã giả cho cách hoạt động trên thì hàm DFS hoạt động với đệ quy cùng với một mảng bất kì (thông thường là \textbf{vis}, \textbf{visited}, \textbf{hoặc là bất kì cái tên nào khác mà bạn có thể nghĩ ra}) dùng để biểu diễn rằng đỉnh n đã được thăm thì độ phức tạp của thuật toán DFS xấp xỉ \textbf{O(V + E)}
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+
+
+\begin{frame}
+    \begin{block}{Mã giả}
+        \centering
+        
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            
+            \includegraphics[width=\textwidth]{dfs1.png}
+            \textbf{\textcolor{blue!50}{c++}}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{dfs2.png}
+            \textbf{\textcolor{blue!50}{python}}
+        \end{minipage}
+    \end{block}
+    \begin{itemize}
+        \item[$\rightarrow$]Trên đây là mã giả của DFS trong cả 2 phiên bản c++ và python (2 ngôn ngữ phổ biến hiện nay trong lĩnh vực lập trình thi đấu).
+        \item[$\rightarrow$]Phần \textbf{do something} bạn có thể thêm những câu lệnh khác tùy theo mục đích sử dụng
+        \item[$\longrightarrow$]Vậy DFS là 1 hàm đệ quy giúp duyệt toàn bộ đồ thị theo chiều sâu
+    \end{itemize}
+\end{frame}
+
+
 \section{Thuật toán BFS}
+
+
+
+\begin{frame}{BFS - Duyệt theo chiều rộng}
+
+    \begin{block}{\textbf{MỞ ĐẦU}}
+        Bài viết này sẽ giúp bạn tìm hiểu về cây \textbf{BFS} (Breadth First Search Tree – BFS Tree). Cây \textbf{BFS} là một ứng dụng quan trọng có được từ kỹ thuật duyệt đồ thị theo chiều rộng, giúp giải các bài toán tìm đường đi ngắn nhất trên đồ thị không trọng số và phân tích thành phần liên thông.
+    \end{block}
+    \pause
+    \textbf{Ứng dụng chuyên sâu:}
+    \begin{itemize}
+        \item Tìm \textbf{đường đi ngắn nhất} (Shortest Path - unweighted)
+        \item Phân tích các thành phần \textbf{liên thông} (Connected)
+        \item Kiểm tra đồ thị \textbf{hai phía} (Bipartite)
+        \item Lan truyền theo \textbf{từng lớp} (Level Order Traversal)
+        \item Cũng như nhiều ứng dụng khác nữa ...
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+
+    \begin{block}{Ý tưởng và cấu trúc}
+        \begin{itemize}
+            \item Sử dụng \textbf{hàng đợi (Queue)}
+            \item Thăm tất cả các đỉnh kề của một đỉnh trước khi đi tiếp sang các đỉnh ở mức sâu hơn
+        \end{itemize}
+    \end{block}
+    \pause
+    \begin{block}{Cách hoạt động}
+        \begin{itemize}
+            \item Bắt đầu từ một đỉnh
+            \item Đưa đỉnh đó vào \textbf{queue}
+            \item Lấy đỉnh ra và thăm tất cả các đỉnh kề \textbf{chưa thăm}
+            \item Đưa các đỉnh đó vào queue
+            \item Lặp lại cho đến khi queue rỗng
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+{
+\begin{frame}{\textbf{MINH HỌA}}
+    \begin{block}{Minh họa cách hoạt động của 1 cây \textbf{BFS}}
+        \begin{center}
+
+            \begin{tikzpicture}[
+                    scale=1,
+                    every node/.style={circle,draw,minimum size=0.7cm},
+                    visited/.style={fill=green!40},
+                    unvisited/.style={fill=gray!20}
+                ]
+
+                \node[unvisited] (1) at (0,0.5) {1};
+                \node[unvisited] (2) at (2,1) {2};
+                \node[unvisited] (3) at (2,-0.5) {3};
+                \node[unvisited] (4) at (4,1.5) {4};
+                \node[unvisited] (5) at (4,-0.01) {5};
+                \node[unvisited] (6) at (4,-1) {6};
+
+                \draw (1)--(2);
+                \draw (1)--(3);
+                \draw (2)--(4);
+                \draw (3)--(6);
+                \draw (3)--(5);
+
+            \end{tikzpicture}
+        \end{center}
+    \end{block}
+    \begin{center}
+        \textcolor{blue}{Ở đây là 1 đồ thị rỗng chưa có đỉnh nào được thăm.}
+    \end{center}
+\end{frame}
+}
+
+{
+\begin{frame}{\textbf{MINH HỌA}}
+    \begin{block}{Minh họa cách hoạt động của 1 cây \textbf{BFS}}
+        \begin{center}
+
+            \begin{tikzpicture}[
+                    scale=1,
+                    every node/.style={circle,draw,minimum size=0.7cm},
+                    visited/.style={fill=green!40},
+                    unvisited/.style={fill=gray!20}
+                ]
+
+                \node[visited] (1) at (0,0.5) {1};
+                \node[unvisited] (2) at (2,1) {2};
+                \node[unvisited] (3) at (2,-0.5) {3};
+                \node[unvisited] (4) at (4,1.5) {4};
+                \node[unvisited] (5) at (4,-0.01) {5};
+                \node[unvisited] (6) at (4,-1) {6};
+
+                \draw (1)--(2);
+                \draw (1)--(3);
+                \draw (2)--(4);
+                \draw (3)--(6);
+                \draw (3)--(5);
+
+            \end{tikzpicture}
+        \end{center}
+    \end{block}
+    \begin{center}
+        \textcolor{blue}{Bắt đầu từ đỉnh 1 và đưa vào queue}
+    \end{center}
+\end{frame}
+}
+
+{
+\begin{frame}{\textbf{MINH HỌA}}
+    \begin{block}{Minh họa cách hoạt động của 1 cây \textbf{BFS}}
+        \begin{center}
+
+            \begin{tikzpicture}[
+                    scale=1,
+                    every node/.style={circle,draw,minimum size=0.7cm},
+                    visited/.style={fill=green!40},
+                    unvisited/.style={fill=gray!20}
+                ]
+
+                \node[visited] (1) at (0,0.5) {1};
+                \node[visited] (2) at (2,1) {2};
+                \node[unvisited] (3) at (2,-0.5) {3};
+                \node[unvisited] (4) at (4,1.5) {4};
+                \node[unvisited] (5) at (4,-0.01) {5};
+                \node[unvisited] (6) at (4,-1) {6};
+
+                \draw (1)--(2);
+                \draw (1)--(3);
+                \draw (2)--(4);
+                \draw (3)--(6);
+                \draw (3)--(5);
+
+            \end{tikzpicture}
+        \end{center}
+    \end{block}
+    \begin{center}
+        \textcolor{blue}{Thăm tất cả các đỉnh kề của 1 bắt đầu từ 2}
+    \end{center}
+\end{frame}
+}
+
+{
+\begin{frame}{\textbf{MINH HỌA}}
+    \begin{block}{Minh họa cách hoạt động của 1 cây \textbf{BFS}}
+        \begin{center}
+
+            \begin{tikzpicture}[
+                    scale=1,
+                    every node/.style={circle,draw,minimum size=0.7cm},
+                    visited/.style={fill=green!40},
+                    unvisited/.style={fill=gray!20}
+                ]
+
+                \node[visited] (1) at (0,0.5) {1};
+                \node[visited] (2) at (2,1) {2};
+                \node[visited] (3) at (2,-0.5) {3};
+                \node[unvisited] (4) at (4,1.5) {4};
+                \node[unvisited] (5) at (4,-0.01) {5};
+                \node[unvisited] (6) at (4,-1) {6};
+
+                \draw (1)--(2);
+                \draw (1)--(3);
+                \draw (2)--(4);
+                \draw (3)--(6);
+                \draw (3)--(5);
+
+            \end{tikzpicture}
+        \end{center}
+    \end{block}
+    \begin{center}
+        \textcolor{blue}{Tiếp tục thăm đỉnh kề của 1 là 3}
+    \end{center}
+\end{frame}
+}
+
+{
+\begin{frame}{\textbf{MINH HỌA}}
+    \begin{block}{Minh họa cách hoạt động của 1 cây \textbf{BFS}}
+        \begin{center}
+
+            \begin{tikzpicture}[
+                    scale=1,
+                    every node/.style={circle,draw,minimum size=0.7cm},
+                    visited/.style={fill=green!40},
+                    unvisited/.style={fill=gray!20}
+                ]
+
+                \node[visited] (1) at (0,0.5) {1};
+                \node[visited] (2) at (2,1) {2};
+                \node[visited] (3) at (2,-0.5) {3};
+                \node[visited] (4) at (4,1.5) {4};
+                \node[unvisited] (5) at (4,-0.01) {5};
+                \node[unvisited] (6) at (4,-1) {6};
+
+                \draw (1)--(2);
+                \draw (1)--(3);
+                \draw (2)--(4);
+                \draw (3)--(6);
+                \draw (3)--(5);
+
+            \end{tikzpicture}
+        \end{center}
+    \end{block}
+    \begin{center}
+        \textcolor{blue}{Tiếp theo xử lý đỉnh 2 và thăm đỉnh 4}
+    \end{center}
+\end{frame}
+}
+
+{
+\begin{frame}{\textbf{MINH HỌA}}
+    \begin{block}{Minh họa cách hoạt động của 1 cây \textbf{BFS}}
+        \begin{center}
+
+            \begin{tikzpicture}[
+                    scale=1,
+                    every node/.style={circle,draw,minimum size=0.7cm},
+                    visited/.style={fill=green!40},
+                    unvisited/.style={fill=gray!20}
+                ]
+
+                \node[visited] (1) at (0,0.5) {1};
+                \node[visited] (2) at (2,1) {2};
+                \node[visited] (3) at (2,-0.5) {3};
+                \node[visited] (4) at (4,1.5) {4};
+                \node[visited] (5) at (4,-0.01) {5};
+                \node[visited] (6) at (4,-1) {6};
+
+                \draw (1)--(2);
+                \draw (1)--(3);
+                \draw (2)--(4);
+                \draw (3)--(6);
+                \draw (3)--(5);
+
+            \end{tikzpicture}
+        \end{center}
+    \end{block}
+    \begin{center}
+        \textcolor{blue}{Tiếp tục xử lý đỉnh 3 và thăm các đỉnh 5, 6 → kết thúc}
+    \end{center}
+\end{frame}
+}
+
+\begin{frame}
+    \begin{block}{\textbf{Tổng quát}}
+        \textbf{\hspace{0.7cm}\textcolor{orange}{Từ minh họa trên ta có thể nhận thấy rằng:}}
+        \pause
+        \begin{itemize}
+            \item[$\rightarrow$] BFS duyệt theo từng \textbf{lớp (level)}, tức là thăm hết các đỉnh gần trước rồi mới đi xa hơn.
+            \pause
+            \item[$\rightarrow$] Nếu sử dụng \textbf{BFS} cho 1 đồ thị liên thông thì toàn bộ các đỉnh đều sẽ được thăm.
+            \pause
+            \item[$\rightarrow$] Độ phức tạp của thuật toán BFS là \textbf{O(V + E)}
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \begin{block}{Mã giả}
+        \centering
+        
+        \begin{minipage}{0.36\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{bfs1.png}
+            \textbf{\textcolor{blue!50}{c++}}
+        \end{minipage}
+        % \hfill
+        \begin{minipage}{0.36\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{bfs2.png}
+            \textbf{\textcolor{blue!50}{python}}
+        \end{minipage}
+    \end{block}
+    \begin{itemize}
+        \item[$\rightarrow$]Phần \textbf{do something} bạn có thể tùy chỉnh theo bài toán
+        \item[$\longrightarrow$]Vậy BFS là thuật toán duyệt đồ thị theo chiều rộng sử dụng queue
+    \end{itemize}
+\end{frame}
+
+
+
+
 \section{Tổng kết}
 
 % ===== END =====
 \begin{frame}{Kết thúc}
-\centering
-\vspace{0.8cm}
+    \centering
+    \vspace{0.8cm}
 
-{\Huge \textbf{Cảm ơn thầy cô và các bạn đã theo dõi!}}
+    {\Huge \textbf{Cảm ơn thầy cô và các bạn đã theo dõi!}}
 
-\vspace{1cm}
-{\Large Xin chân thành cảm ơn}
+    \vspace{1cm}
+    {\Large Xin chân thành cảm ơn}
 
-\vspace{1.2cm}
+    \vspace{1.2cm}
 
-\vfill
+    \vfill
 
 \end{frame}
 
