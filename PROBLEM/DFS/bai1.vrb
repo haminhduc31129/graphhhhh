@@ -1,0 +1,24 @@
+\frametitle{Solution - Bài 3}
+
+\begin{block}{Ý tưởng}
+\begin{itemize}
+    \item Khi DFS từ $u$ sang $v$
+    \item Nếu $v$ đã thăm và $v \neq parent[u]$ → có chu trình
+\end{itemize}
+\end{block}
+
+\pause
+
+\begin{tcolorbox}[colback=black!5!white,colframe=red!70!black,title=Mã giả DFS]
+\begin{verbatim}
+DFS(u, parent):
+    visited[u] = true
+    for v in adj[u]:
+        if not visited[v]:
+            if DFS(v, u): return true
+        else if v != parent:
+            return true
+    return false
+\end{verbatim}
+\end{tcolorbox}
+
