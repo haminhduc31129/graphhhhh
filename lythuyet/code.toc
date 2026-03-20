@@ -1,7 +1,7 @@
 \beamer@sectionintoc {1}{Giới thiệu về đồ thị}{3}{0}{1}
-\beamer@sectionintoc {2}{Khái niệm về đồ thị}{8}{0}{2}
-\beamer@sectionintoc {3}{Phân loại đồ thị}{15}{0}{3}
-\beamer@sectionintoc {4}{Cách dựng đồ thị}{20}{0}{4}
-\beamer@sectionintoc {5}{Thuật toán DFS}{20}{0}{5}
-\beamer@sectionintoc {6}{Thuật toán BFS}{36}{0}{6}
-\beamer@sectionintoc {7}{Tổng kết}{51}{0}{7}
+\beamer@sectionintoc {2}{Khái niệm về đồ thị}{9}{0}{2}
+\beamer@sectionintoc {3}{Phân loại đồ thị}{17}{0}{3}
+\beamer@sectionintoc {4}{Cách dựng đồ thị}{23}{0}{4}
+\beamer@sectionintoc {5}{Thuật toán DFS}{42}{0}{5}
+\beamer@sectionintoc {6}{Thuật toán BFS}{59}{0}{6}
+\beamer@sectionintoc {7}{Tổng kết}{75}{0}{7}
