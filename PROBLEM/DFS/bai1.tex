@@ -31,8 +31,30 @@
 
 \section{Bài tập luyện tập}
 
-\begin{frame}{}
+\begin{frame}[plain]
+    \centering
+    \vspace{1cm}
 
+    \begin{tcolorbox}[
+            enhanced,
+            colback=blue!70!black,
+            colframe=blue!70!black,
+            width=0.75\textwidth,
+            arc=4mm,
+            boxrule=0pt,
+            drop shadow
+        ]
+        \centering
+        {\color{white}\LARGE \textbf{Bài Tập về đồ thị}}\\[0.2cm]
+        {\color{white}\large Những bài tập cơ bản nhất về dồ thị}
+    \end{tcolorbox}
+
+    \vspace{1.2cm}
+
+    {\Large \textbf{Nguyễn Văn Phú - Hà Minh Đức - Nguyễn Tấn Đạt}}\\[0.4cm]
+    THPT Chuyên ĐHV\\[0.6cm]
+
+    Ngày 18 tháng 3 năm 2026
 \end{frame}
 
 % ===== BÀI 1 =====
@@ -122,24 +144,16 @@ Sử dụng BFS để đảm bảo đi theo từng lớp.
 \end{itemize}
 \end{block}
 
-\pause
 
-\begin{tcolorbox}[colback=black!5!white,colframe=green!60!black,title=Mã giả BFS]
-\begin{verbatim}
-queue q
-q.push(s)
-dist[s] = 0
+\end{frame}
 
-while q not empty:
-    u = q.front()
-    q.pop()
-    for v in adj[u]:
-        if not visited[v]:
-            dist[v] = dist[u] + 1
-            q.push(v)
-\end{verbatim}
-\end{tcolorbox}
-
+\begin{frame}
+    \begin{exampleblock}{Mã giả BFS}
+        \begin{center}
+            \includegraphics[width=0.6\textwidth]{codemau1.png}
+        \end{center}
+    \end{exampleblock}
+    
 \end{frame}
 
 % ===== BÀI 3 =====
