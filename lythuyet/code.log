@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.8)  19 MAR 2026 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.8)  20 MAR 2026 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -981,30 +981,36 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count385
  (code.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 102.
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+)
+
+LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 102.
+
+
 
 <background.jpg, id=64, 803.0pt x 458.71375pt>
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 78.
+Package pdftex.def Info: background.jpg  used on input line 102.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
- (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 78.
- (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-) [1
+[1
 
 {C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./background.jpg>] (code.toc)
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 94.
+Package pdftex.def Info: background.jpg  used on input line 118.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [2
 
@@ -1012,73 +1018,73 @@ Package pdftex.def Info: background.jpg  used on input line 94.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 96.
+Package pdftex.def Info: background.jpg  used on input line 120.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [3
 
 ]
-<graph1.png, id=128, 1027.84pt x 715.67375pt>
+<graph1.png, id=129, 1027.84pt x 715.67375pt>
 File: graph1.png Graphic file (type png)
 <use graph1.png>
-Package pdftex.def Info: graph1.png  used on input line 121.
+Package pdftex.def Info: graph1.png  used on input line 145.
 (pdftex.def)             Requested size: 123.22652pt x 85.80069pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 121.
+Package pdftex.def Info: background.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [4
 
  <./graph1.png>]
 File: graph1.png Graphic file (type png)
 <use graph1.png>
-Package pdftex.def Info: graph1.png  used on input line 121.
+Package pdftex.def Info: graph1.png  used on input line 145.
 (pdftex.def)             Requested size: 123.22652pt x 85.80069pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 121.
+Package pdftex.def Info: background.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [5
 
 ]
 File: graph1.png Graphic file (type png)
 <use graph1.png>
-Package pdftex.def Info: graph1.png  used on input line 121.
+Package pdftex.def Info: graph1.png  used on input line 145.
 (pdftex.def)             Requested size: 123.22652pt x 85.80069pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 121.
+Package pdftex.def Info: background.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [6
 
 ]
 File: graph1.png Graphic file (type png)
 <use graph1.png>
-Package pdftex.def Info: graph1.png  used on input line 121.
+Package pdftex.def Info: graph1.png  used on input line 145.
 (pdftex.def)             Requested size: 123.22652pt x 85.80069pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 121.
+Package pdftex.def Info: background.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [7
 
 ]
 File: graph1.png Graphic file (type png)
 <use graph1.png>
-Package pdftex.def Info: graph1.png  used on input line 121.
+Package pdftex.def Info: graph1.png  used on input line 145.
 (pdftex.def)             Requested size: 123.22652pt x 85.80069pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 121.
+Package pdftex.def Info: background.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [8
 
@@ -1086,99 +1092,99 @@ Package pdftex.def Info: background.jpg  used on input line 121.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 123.
+Package pdftex.def Info: background.jpg  used on input line 147.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [9
 
 ]
-<graph2.png, id=202, 200.24812pt x 132.495pt>
+<graph2.png, id=203, 200.24812pt x 132.495pt>
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 154.
+Package pdftex.def Info: graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 102.68962pt x 67.94556pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 154.
+Package pdftex.def Info: background.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [10
 
  <./graph2.png>]
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 154.
+Package pdftex.def Info: graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 102.68962pt x 67.94556pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 154.
+Package pdftex.def Info: background.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [11
 
 ]
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 154.
+Package pdftex.def Info: graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 102.68962pt x 67.94556pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 154.
+Package pdftex.def Info: background.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [12
 
 ]
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 154.
+Package pdftex.def Info: graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 102.68962pt x 67.94556pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 154.
+Package pdftex.def Info: background.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [13
 
 ]
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 154.
+Package pdftex.def Info: graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 102.68962pt x 67.94556pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 154.
+Package pdftex.def Info: background.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [14
 
 ]
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 154.
+Package pdftex.def Info: graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 102.68962pt x 67.94556pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 154.
+Package pdftex.def Info: background.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [15
 
 ]
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 154.
+Package pdftex.def Info: graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 102.68962pt x 67.94556pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 154.
+Package pdftex.def Info: background.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [16
 
@@ -1186,77 +1192,77 @@ Package pdftex.def Info: background.jpg  used on input line 154.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 156.
+Package pdftex.def Info: background.jpg  used on input line 180.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [17
 
 ]
-<dondothi-removebg-preview.png, id=331, 255.95625pt x 197.73875pt>
+<dondothi-removebg-preview.png, id=332, 255.95625pt x 197.73875pt>
 File: dondothi-removebg-preview.png Graphic file (type png)
 <use dondothi-removebg-preview.png>
-Package pdftex.def Info: dondothi-removebg-preview.png  used on input line 180.
+Package pdftex.def Info: dondothi-removebg-preview.png  used on input line 204.
 (pdftex.def)             Requested size: 171.14764pt x 132.21875pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 180.
+Package pdftex.def Info: background.jpg  used on input line 204.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [18
 
  <./dondothi-removebg-preview.png>]
-<dadothu-removebg-preview.png, id=378, 255.95625pt x 197.73875pt>
+<dadothu-removebg-preview.png, id=379, 255.95625pt x 197.73875pt>
 File: dadothu-removebg-preview.png Graphic file (type png)
 <use dadothu-removebg-preview.png>
-Package pdftex.def Info: dadothu-removebg-preview.png  used on input line 212.
+Package pdftex.def Info: dadothu-removebg-preview.png  used on input line 236.
 (pdftex.def)             Requested size: 171.14764pt x 132.21875pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 212.
+Package pdftex.def Info: background.jpg  used on input line 236.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [19
 
  <./dadothu-removebg-preview.png>]
-<vohuong-removebg-preview.png, id=407, 253.94875pt x 172.645pt>
+<vohuong-removebg-preview.png, id=408, 253.94875pt x 172.645pt>
 File: vohuong-removebg-preview.png Graphic file (type png)
 <use vohuong-removebg-preview.png>
-Package pdftex.def Info: vohuong-removebg-preview.png  used on input line 235.
+Package pdftex.def Info: vohuong-removebg-preview.png  used on input line 259.
 (pdftex.def)             Requested size: 171.14764pt x 116.35646pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 235.
+Package pdftex.def Info: background.jpg  used on input line 259.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [20
 
  <./vohuong-removebg-preview.png>]
-<cohuong-removebg-preview.png, id=438, 253.94875pt x 172.645pt>
+<cohuong-removebg-preview.png, id=439, 253.94875pt x 172.645pt>
 File: cohuong-removebg-preview.png Graphic file (type png)
 <use cohuong-removebg-preview.png>
-Package pdftex.def Info: cohuong-removebg-preview.png  used on input line 257.
+Package pdftex.def Info: cohuong-removebg-preview.png  used on input line 281.
 (pdftex.def)             Requested size: 171.14764pt x 116.35646pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 257.
+Package pdftex.def Info: background.jpg  used on input line 281.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [21
 
  <./cohuong-removebg-preview.png>]
-<trongso-removebg-preview.png, id=475, 253.94875pt x 172.645pt>
+<trongso-removebg-preview.png, id=476, 253.94875pt x 172.645pt>
 File: trongso-removebg-preview.png Graphic file (type png)
 <use trongso-removebg-preview.png>
-Package pdftex.def Info: trongso-removebg-preview.png  used on input line 287.
+Package pdftex.def Info: trongso-removebg-preview.png  used on input line 311.
 (pdftex.def)             Requested size: 171.14764pt x 116.35646pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 287.
+Package pdftex.def Info: background.jpg  used on input line 311.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [22
 
@@ -1264,7 +1270,7 @@ Package pdftex.def Info: background.jpg  used on input line 287.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 289.
+Package pdftex.def Info: background.jpg  used on input line 313.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [23
 
@@ -1282,14 +1288,14 @@ LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
 (Font)              using `T5/cmss/m/n' instead on input line 49.
 
 )
-Overfull \vbox (19.76027pt too high) detected at line 352
+Overfull \vbox (19.76027pt too high) detected at line 376
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 352.
+Package pdftex.def Info: background.jpg  used on input line 376.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [24
 
@@ -1299,14 +1305,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 41.
 (pdftex.def)             Requested size: 119.80283pt x 79.26915pt.
 )
-Overfull \vbox (19.76027pt too high) detected at line 352
+Overfull \vbox (19.76027pt too high) detected at line 376
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 352.
+Package pdftex.def Info: background.jpg  used on input line 376.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [25
 
@@ -1316,14 +1322,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 41.
 (pdftex.def)             Requested size: 119.80283pt x 79.26915pt.
 )
-Overfull \vbox (19.76027pt too high) detected at line 352
+Overfull \vbox (19.76027pt too high) detected at line 376
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 352.
+Package pdftex.def Info: background.jpg  used on input line 376.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [26
 
@@ -1333,14 +1339,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 41.
 (pdftex.def)             Requested size: 119.80283pt x 79.26915pt.
 )
-Overfull \vbox (19.76027pt too high) detected at line 352
+Overfull \vbox (19.76027pt too high) detected at line 376
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 352.
+Package pdftex.def Info: background.jpg  used on input line 376.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [27
 
@@ -1350,33 +1356,33 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 41.
 (pdftex.def)             Requested size: 119.80283pt x 79.26915pt.
 )
-Overfull \vbox (19.76027pt too high) detected at line 352
+Overfull \vbox (19.76027pt too high) detected at line 376
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 352.
+Package pdftex.def Info: background.jpg  used on input line 376.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [28
 
 ]
-<mtk2.png, id=715, 1228.59pt x 598.235pt>
+<mtk2.png, id=716, 1228.59pt x 598.235pt>
 File: mtk2.png Graphic file (type png)
 <use mtk2.png>
-Package pdftex.def Info: mtk2.png  used on input line 378.
+Package pdftex.def Info: mtk2.png  used on input line 402.
 (pdftex.def)             Requested size: 171.14764pt x 83.33241pt.
-<mtk1.png, id=716, 1228.59pt x 483.8075pt>
+<mtk1.png, id=717, 1228.59pt x 483.8075pt>
 File: mtk1.png Graphic file (type png)
 <use mtk1.png>
-Package pdftex.def Info: mtk1.png  used on input line 378.
+Package pdftex.def Info: mtk1.png  used on input line 402.
 (pdftex.def)             Requested size: 171.14764pt x 67.39299pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 378.
+Package pdftex.def Info: background.jpg  used on input line 402.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [29
 
@@ -1389,14 +1395,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (30.64879pt too high) detected at line 438
+Overfull \vbox (30.64879pt too high) detected at line 462
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 438.
+Package pdftex.def Info: background.jpg  used on input line 462.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [30
 
@@ -1406,14 +1412,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (30.64879pt too high) detected at line 438
+Overfull \vbox (30.64879pt too high) detected at line 462
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 438.
+Package pdftex.def Info: background.jpg  used on input line 462.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [31
 
@@ -1423,14 +1429,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (30.64879pt too high) detected at line 438
+Overfull \vbox (30.64879pt too high) detected at line 462
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 438.
+Package pdftex.def Info: background.jpg  used on input line 462.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [32
 
@@ -1440,14 +1446,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (30.64879pt too high) detected at line 438
+Overfull \vbox (30.64879pt too high) detected at line 462
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 438.
+Package pdftex.def Info: background.jpg  used on input line 462.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [33
 
@@ -1457,33 +1463,33 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (30.64879pt too high) detected at line 438
+Overfull \vbox (30.64879pt too high) detected at line 462
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 438.
+Package pdftex.def Info: background.jpg  used on input line 462.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [34
 
 ]
-<dsk.png, id=944, 1228.59pt x 636.3775pt>
+<dsk.png, id=945, 1228.59pt x 636.3775pt>
 File: dsk.png Graphic file (type png)
 <use dsk.png>
-Package pdftex.def Info: dsk.png  used on input line 465.
+Package pdftex.def Info: dsk.png  used on input line 489.
 (pdftex.def)             Requested size: 171.14764pt x 88.64557pt.
-<dsk1.png, id=945, 1228.59pt x 521.95pt>
+<dsk1.png, id=946, 1228.59pt x 521.95pt>
 File: dsk1.png Graphic file (type png)
 <use dsk1.png>
-Package pdftex.def Info: dsk1.png  used on input line 465.
+Package pdftex.def Info: dsk1.png  used on input line 489.
 (pdftex.def)             Requested size: 171.14764pt x 72.70613pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 465.
+Package pdftex.def Info: background.jpg  used on input line 489.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [35
 
@@ -1496,14 +1502,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (15.7062pt too high) detected at line 526
+Overfull \vbox (15.7062pt too high) detected at line 550
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 526.
+Package pdftex.def Info: background.jpg  used on input line 550.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [36
 
@@ -1513,14 +1519,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (15.7062pt too high) detected at line 526
+Overfull \vbox (15.7062pt too high) detected at line 550
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 526.
+Package pdftex.def Info: background.jpg  used on input line 550.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [37
 
@@ -1530,14 +1536,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (15.7062pt too high) detected at line 526
+Overfull \vbox (15.7062pt too high) detected at line 550
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 526.
+Package pdftex.def Info: background.jpg  used on input line 550.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [38
 
@@ -1547,14 +1553,14 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (15.7062pt too high) detected at line 526
+Overfull \vbox (15.7062pt too high) detected at line 550
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 526.
+Package pdftex.def Info: background.jpg  used on input line 550.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [39
 
@@ -1564,33 +1570,33 @@ File: graph2.png Graphic file (type png)
 Package pdftex.def Info: graph2.png  used on input line 40.
 (pdftex.def)             Requested size: 94.13171pt x 62.28275pt.
 )
-Overfull \vbox (15.7062pt too high) detected at line 526
+Overfull \vbox (15.7062pt too high) detected at line 550
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 526.
+Package pdftex.def Info: background.jpg  used on input line 550.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [40
 
 ]
-<dsc.png, id=1171, 1228.59pt x 483.8075pt>
+<dsc.png, id=1172, 1228.59pt x 483.8075pt>
 File: dsc.png Graphic file (type png)
 <use dsc.png>
-Package pdftex.def Info: dsc.png  used on input line 553.
+Package pdftex.def Info: dsc.png  used on input line 577.
 (pdftex.def)             Requested size: 171.14764pt x 67.39299pt.
-<dsc1.png, id=1172, 1228.59pt x 483.8075pt>
+<dsc1.png, id=1173, 1228.59pt x 483.8075pt>
 File: dsc1.png Graphic file (type png)
 <use dsc1.png>
-Package pdftex.def Info: dsc1.png  used on input line 553.
+Package pdftex.def Info: dsc1.png  used on input line 577.
 (pdftex.def)             Requested size: 171.14764pt x 67.39299pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 553.
+Package pdftex.def Info: background.jpg  used on input line 577.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [41
 
@@ -1598,7 +1604,7 @@ Package pdftex.def Info: background.jpg  used on input line 553.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 555.
+Package pdftex.def Info: background.jpg  used on input line 579.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [42
 
@@ -1606,7 +1612,7 @@ Package pdftex.def Info: background.jpg  used on input line 555.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 571.
+Package pdftex.def Info: background.jpg  used on input line 595.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [43
 
@@ -1614,7 +1620,7 @@ Package pdftex.def Info: background.jpg  used on input line 571.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 571.
+Package pdftex.def Info: background.jpg  used on input line 595.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [44
 
@@ -1622,7 +1628,7 @@ Package pdftex.def Info: background.jpg  used on input line 571.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 591.
+Package pdftex.def Info: background.jpg  used on input line 615.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [45
 
@@ -1630,7 +1636,7 @@ Package pdftex.def Info: background.jpg  used on input line 591.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 591.
+Package pdftex.def Info: background.jpg  used on input line 615.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [46
 
@@ -1638,7 +1644,7 @@ Package pdftex.def Info: background.jpg  used on input line 591.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 624.
+Package pdftex.def Info: background.jpg  used on input line 648.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [47
 
@@ -1646,7 +1652,7 @@ Package pdftex.def Info: background.jpg  used on input line 624.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 658.
+Package pdftex.def Info: background.jpg  used on input line 682.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [48
 
@@ -1654,7 +1660,7 @@ Package pdftex.def Info: background.jpg  used on input line 658.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 692.
+Package pdftex.def Info: background.jpg  used on input line 716.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [49
 
@@ -1662,7 +1668,7 @@ Package pdftex.def Info: background.jpg  used on input line 692.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 726.
+Package pdftex.def Info: background.jpg  used on input line 750.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [50
 
@@ -1670,7 +1676,7 @@ Package pdftex.def Info: background.jpg  used on input line 726.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 760.
+Package pdftex.def Info: background.jpg  used on input line 784.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [51
 
@@ -1678,7 +1684,7 @@ Package pdftex.def Info: background.jpg  used on input line 760.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 794.
+Package pdftex.def Info: background.jpg  used on input line 818.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [52
 
@@ -1686,7 +1692,7 @@ Package pdftex.def Info: background.jpg  used on input line 794.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 828.
+Package pdftex.def Info: background.jpg  used on input line 852.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [53
 
@@ -1694,7 +1700,7 @@ Package pdftex.def Info: background.jpg  used on input line 828.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 843.
+Package pdftex.def Info: background.jpg  used on input line 867.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [54
 
@@ -1702,7 +1708,7 @@ Package pdftex.def Info: background.jpg  used on input line 843.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 843.
+Package pdftex.def Info: background.jpg  used on input line 867.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [55
 
@@ -1710,7 +1716,7 @@ Package pdftex.def Info: background.jpg  used on input line 843.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 843.
+Package pdftex.def Info: background.jpg  used on input line 867.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [56
 
@@ -1718,26 +1724,26 @@ Package pdftex.def Info: background.jpg  used on input line 843.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 843.
+Package pdftex.def Info: background.jpg  used on input line 867.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [57
 
 ]
-<dfs1.png, id=1432, 1072.005pt x 943.525pt>
+<dfs1.png, id=1433, 1072.005pt x 943.525pt>
 File: dfs1.png Graphic file (type png)
 <use dfs1.png>
-Package pdftex.def Info: dfs1.png  used on input line 869.
+Package pdftex.def Info: dfs1.png  used on input line 893.
 (pdftex.def)             Requested size: 154.03183pt x 135.56227pt.
-<dfs2.png, id=1433, 1072.005pt x 943.525pt>
+<dfs2.png, id=1434, 1072.005pt x 943.525pt>
 File: dfs2.png Graphic file (type png)
 <use dfs2.png>
-Package pdftex.def Info: dfs2.png  used on input line 869.
+Package pdftex.def Info: dfs2.png  used on input line 893.
 (pdftex.def)             Requested size: 154.03183pt x 135.56227pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 869.
+Package pdftex.def Info: background.jpg  used on input line 893.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [58
 
@@ -1745,7 +1751,7 @@ Package pdftex.def Info: background.jpg  used on input line 869.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 872.
+Package pdftex.def Info: background.jpg  used on input line 896.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [59
 
@@ -1753,7 +1759,7 @@ Package pdftex.def Info: background.jpg  used on input line 872.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 890.
+Package pdftex.def Info: background.jpg  used on input line 914.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [60
 
@@ -1761,7 +1767,7 @@ Package pdftex.def Info: background.jpg  used on input line 890.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 890.
+Package pdftex.def Info: background.jpg  used on input line 914.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [61
 
@@ -1769,7 +1775,7 @@ Package pdftex.def Info: background.jpg  used on input line 890.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 910.
+Package pdftex.def Info: background.jpg  used on input line 934.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [62
 
@@ -1777,7 +1783,7 @@ Package pdftex.def Info: background.jpg  used on input line 910.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 910.
+Package pdftex.def Info: background.jpg  used on input line 934.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [63
 
@@ -1785,7 +1791,7 @@ Package pdftex.def Info: background.jpg  used on input line 910.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 943.
+Package pdftex.def Info: background.jpg  used on input line 967.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [64
 
@@ -1793,7 +1799,7 @@ Package pdftex.def Info: background.jpg  used on input line 943.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 977.
+Package pdftex.def Info: background.jpg  used on input line 1001.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [65
 
@@ -1801,7 +1807,7 @@ Package pdftex.def Info: background.jpg  used on input line 977.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1011.
+Package pdftex.def Info: background.jpg  used on input line 1035.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [66
 
@@ -1809,7 +1815,7 @@ Package pdftex.def Info: background.jpg  used on input line 1011.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1045.
+Package pdftex.def Info: background.jpg  used on input line 1069.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [67
 
@@ -1817,7 +1823,7 @@ Package pdftex.def Info: background.jpg  used on input line 1045.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1079.
+Package pdftex.def Info: background.jpg  used on input line 1103.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [68
 
@@ -1825,7 +1831,7 @@ Package pdftex.def Info: background.jpg  used on input line 1079.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1113.
+Package pdftex.def Info: background.jpg  used on input line 1137.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [69
 
@@ -1833,7 +1839,7 @@ Package pdftex.def Info: background.jpg  used on input line 1113.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1128.
+Package pdftex.def Info: background.jpg  used on input line 1152.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [70
 
@@ -1841,7 +1847,7 @@ Package pdftex.def Info: background.jpg  used on input line 1128.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1128.
+Package pdftex.def Info: background.jpg  used on input line 1152.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [71
 
@@ -1849,7 +1855,7 @@ Package pdftex.def Info: background.jpg  used on input line 1128.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1128.
+Package pdftex.def Info: background.jpg  used on input line 1152.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [72
 
@@ -1857,26 +1863,26 @@ Package pdftex.def Info: background.jpg  used on input line 1128.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1128.
+Package pdftex.def Info: background.jpg  used on input line 1152.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [73
 
 ]
-<bfs1.png, id=1686, 1013.7875pt x 1431.3475pt>
+<bfs1.png, id=1687, 1013.7875pt x 1431.3475pt>
 File: bfs1.png Graphic file (type png)
 <use bfs1.png>
-Package pdftex.def Info: bfs1.png  used on input line 1150.
+Package pdftex.def Info: bfs1.png  used on input line 1174.
 (pdftex.def)             Requested size: 123.22652pt x 173.96019pt.
-<bfs2.png, id=1687, 915.42pt x 1268.74pt>
+<bfs2.png, id=1688, 915.42pt x 1268.74pt>
 File: bfs2.png Graphic file (type png)
 <use bfs2.png>
-Package pdftex.def Info: bfs2.png  used on input line 1150.
+Package pdftex.def Info: bfs2.png  used on input line 1174.
 (pdftex.def)             Requested size: 123.22652pt x 170.76917pt.
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1150.
+Package pdftex.def Info: background.jpg  used on input line 1174.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [74
 
@@ -1884,67 +1890,67 @@ Package pdftex.def Info: background.jpg  used on input line 1150.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1152.
+Package pdftex.def Info: background.jpg  used on input line 1176.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [75
 
 ]
-Overfull \vbox (3.76875pt too high) detected at line 1184
+Overfull \vbox (3.76875pt too high) detected at line 1208
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1184.
+Package pdftex.def Info: background.jpg  used on input line 1208.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [76
 
 ]
-Overfull \vbox (3.76875pt too high) detected at line 1184
+Overfull \vbox (3.76875pt too high) detected at line 1208
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1184.
+Package pdftex.def Info: background.jpg  used on input line 1208.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [77
 
 ]
-Overfull \vbox (3.76875pt too high) detected at line 1184
+Overfull \vbox (3.76875pt too high) detected at line 1208
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1184.
+Package pdftex.def Info: background.jpg  used on input line 1208.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [78
 
 ]
-Overfull \vbox (3.76875pt too high) detected at line 1184
+Overfull \vbox (3.76875pt too high) detected at line 1208
  []
 
 
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1184.
+Package pdftex.def Info: background.jpg  used on input line 1208.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [79
 
 ]
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 1215.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 1239.
  (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1215.
+Package pdftex.def Info: background.jpg  used on input line 1239.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [80
 
@@ -1952,7 +1958,7 @@ Package pdftex.def Info: background.jpg  used on input line 1215.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1215.
+Package pdftex.def Info: background.jpg  used on input line 1239.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [81
 
@@ -1960,7 +1966,7 @@ Package pdftex.def Info: background.jpg  used on input line 1215.
 
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 1231.
+Package pdftex.def Info: background.jpg  used on input line 1255.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
 [82
 
@@ -1987,17 +1993,17 @@ Package rerunfilecheck Info: File `code.out' has not changed.
 (rerunfilecheck)             Checksum: A0653FC123E23A6B6FD171321C1474E8;977.
  ) 
 Here is how much of TeX's memory you used:
- 31272 strings out of 468080
- 649159 string characters out of 5425772
- 1115537 words of memory out of 5000000
- 59161 multiletter control sequences out of 15000+600000
- 648650 words of font info for 79 fonts, out of 8000000 for 9000
+ 31276 strings out of 468080
+ 649272 string characters out of 5425772
+ 1114582 words of memory out of 5000000
+ 59164 multiletter control sequences out of 15000+600000
+ 648702 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,493b,1036s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssbx10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on code.pdf (82 pages, 1950908 bytes).
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssbx10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
+Output written on code.pdf (82 pages, 1960356 bytes).
 PDF statistics:
- 1961 PDF objects out of 2073 (max. 8388607)
+ 1966 PDF objects out of 2073 (max. 8388607)
  172 named destinations out of 1000 (max. 500000)
  4521 words of extra memory for PDF output out of 10000 (max. 10000000)
 
