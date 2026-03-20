@@ -1,28 +1,29 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.20)  20 MAR 2026 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12 Portable) (preloaded format=pdflatex 2026.3.18)  20 MAR 2026 15:03
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/duongpro/Documents/graphhhhh/PROBLEM/DFS/bai1.tex
-(/Users/duongpro/Documents/graphhhhh/PROBLEM/DFS/bai1.tex
+**f:/project/latex/graphhh/PROBLEM/DFS/bai1.tex
+(f:/project/latex/graphhh/PROBLEM/DFS/bai1.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
-(/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamer.cls
+L3 programming layer <2025-12-24>
+(C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamer.cls
 Document Class: beamer 2026/01/22 v3.77 A class for typesetting presentations
-(/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasemodes.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
 )
 \beamer@tempbox=\box53
 \beamer@tempcount=\count276
 \c@beamerpauses=\count277
- (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasedecode.sty
 \beamer@slideinframe=\count278
 \beamer@minimum=\count279
 \beamer@decode@box=\box54
 )
 \beamer@commentbox=\box55
 \beamer@modecount=\count280
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \headdp=\dimen148
@@ -68,15 +69,15 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \beamer@sectionadjust=\count298
 \beamer@toclastsection=\count299
 \beamer@tocsectionnumber=\count300
- (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseoptions.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 ))
 \beamer@paperwidth=\skip50
 \beamer@paperheight=\skip51
- (/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count301
@@ -91,20 +92,20 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen170
 \Gm@layoutvoffset=\dimen171
 \Gm@dimlist=\toks18
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/geometry\geometry.cfg)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/math\pgfmath.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen172
 \pgfutil@tempdimb=\dimen173
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box62
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks22
-))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathutil.code.tex
 \pgf@x=\dimen174
 \pgf@xa=\dimen175
 \pgf@xb=\dimen176
@@ -117,33 +118,33 @@ Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 \c@pgf@countb=\count305
 \c@pgf@countc=\count306
 \c@pgf@countd=\count307
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen182
 \pgfmath@count=\count308
 \pgfmath@box=\box63
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count309
-))) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/size11.clo
+))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/base\size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@x=\dimen185
 \pgf@y=\dimen186
@@ -165,27 +166,27 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
 \pgf@sys@id@count=\count314
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count315
 \pgfsyssoftpath@bigbuffer@items=\count316
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -195,9 +196,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen195
 \pgf@picmaxx=\dimen196
@@ -213,143 +214,143 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen262
 \pgf@zx=\dimen263
 \pgf@zy=\dimen264
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen265
 \pgf@path@lasty=\dimen266
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen267
 \pgf@shorten@start@additional=\dimen268
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box64
 \pgf@hbox=\box65
 \pgf@layerbox@main=\box66
 \pgf@picture@serial@count=\count317
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen269
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen270
 \pgf@pt@y=\dimen271
 \pgf@pt@temp=\dimen272
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen273
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen274
 \pgf@sys@shading@range@num=\count318
 \pgf@shadingcount=\count319
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box67
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count320
 \XC@countmixins=\count321
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
- (/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
- (/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count322
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen275
 \Hy@linkcounter=\count323
 \Hy@pagecounter=\count324
- (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count325
- (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4072.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4072.
-Package hyperref Info: Option `implicit' set `false' on input line 4072.
-Package hyperref Info: Hyper figures OFF on input line 4201.
-Package hyperref Info: Link nesting OFF on input line 4206.
-Package hyperref Info: Hyper index ON on input line 4209.
-Package hyperref Info: Plain pages OFF on input line 4216.
-Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4066.
+Package hyperref Info: Option `implicit' set `false' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4468.
+Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count326
- (/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4807.
+LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen276
- (/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count327
 \Field@Width=\dimen277
 \Fld@charsize=\dimen278
-Package hyperref Info: Hyper figures OFF on input line 6084.
-Package hyperref Info: Link nesting OFF on input line 6089.
-Package hyperref Info: Hyper index ON on input line 6092.
-Package hyperref Info: backreferencing OFF on input line 6099.
-Package hyperref Info: Link coloring OFF on input line 6104.
-Package hyperref Info: Link coloring with OCG OFF on input line 6109.
-Package hyperref Info: PDF/A mode OFF on input line 6114.
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
 \Hy@abspage=\count328
 
 
@@ -357,19 +358,19 @@ Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count329
 \c@bookmark@seq@number=\count330
- (/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaserequires.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasecompatibility.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasefont.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks29
 \symAMSa=\mathgroup4
@@ -377,27 +378,27 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/sansmathaccent\sansmathaccent.sty
 Package: sansmathaccent 2020/01/31
- (/usr/local/texlive/2026/texmf-dist/tex/latex/koma-script/scrlfile.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hooks)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/koma-script/scrlogo.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
-))))) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/translator/translator.sty
+))))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasetranslator.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/translator\translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasemisc.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasetwoscreens.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseoverlay.sty
 \beamer@argscount=\count331
 \beamer@lastskipcover=\skip52
 \beamer@trivlistdepth=\count332
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasetitle.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasesection.sty
 \c@lecture=\count333
 \c@part=\count334
 \c@section=\count335
 \c@subsection=\count336
 \c@subsubsection=\count337
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseframe.sty
 \beamer@framebox=\box68
 \beamer@frametitlebox=\box69
 \beamer@zoombox=\box70
@@ -412,22 +413,22 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \beamer@envbody=\toks30
 \framewidth=\dimen280
 \c@framenumber=\count341
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseframesize.sty
 \beamer@splitbox=\box71
 \beamer@autobreakcount=\count342
 \beamer@autobreaklastheight=\dimen281
 \beamer@frametitletoks=\toks31
 \beamer@framesubtitletoks=\toks32
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseframecomponents.sty
 \beamer@colheight=\skip57
 \beamer@footins=\box72
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasecolor.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasenotes.sty
 \beamer@frameboxcopy=\box73
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasetoc.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasetemplates.sty
 \beamer@sbttoks=\toks33
- (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseauxtemplates.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaseboxes.sty
 \bmb@box=\box74
 \bmb@colorbox=\box75
 \bmb@boxwidth=\dimen282
@@ -439,7 +440,7 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \bmb@prevheight=\dimen288
 )
 \beamer@blockheadheight=\dimen289
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/enumerate.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbaselocalstructure.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks34
 )
@@ -448,23 +449,23 @@ Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \c@table=\count344
 \abovecaptionskip=\skip59
 \belowcaptionskip=\skip60
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasenavigationsymbols.tex)
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasenavigation.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasenavigationsymbols.tex)
 \beamer@section@min@dim=\dimen290
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasetheorems.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks35
 \ex@=\dimen291
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen292
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count345
@@ -514,7 +515,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks40
 \thm@bodyfont=\toks41
@@ -527,20 +528,20 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks45
 )
 \c@theorem=\count357
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerbasethemes.sty)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerthemedefault.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerfontthemedefault.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamercolorthemedefault.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerinnerthemedefault.sty
 \beamer@dima=\dimen300
 \beamer@dimb=\dimen301
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/local/texlive/2026/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerthemeMadrid.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamercolorthemewhale.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamercolorthemeorchid.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamerouterthemeinfolines.sty)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/beamer\beamercolorthemerose.sty) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks46
 \inpenc@posthook=\toks47
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
- (/usr/local/texlive/2026/texmf-dist/tex/latex/vntex/t5enc.def
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/vntex\t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
- (/usr/local/texlive/2026/texmf-dist/tex/latex/vntex/t5enc.dfu
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/vntex\t5enc.dfu
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -695,30 +696,30 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+2423 (decimal 9251)
 ))
 LaTeX Font Info:    Trying to load font information for T5+cmss on input line 116.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/vntex/t5cmss.fd
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/vntex\t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box78
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen302
 \pgf@nodesepend=\dimen303
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pgf/utilities\pgffor.sty (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen304
 \pgffor@skip=\dimen305
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
-)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count358
 \pgfplotmarksize=\dimen306
@@ -739,22 +740,22 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count360
 \tikznumberofcurrentchild=\count361
 \tikz@fig@count=\count362
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count363
 \pgfmatrixcurrentcolumn=\count364
 \pgf@matrix@numberofcolumns=\count365
 )
 \tikz@expandcount=\count366
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
+))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.sty
+))) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/listings\listings.sty
 \lst@mode=\count367
 \lst@gtempboxa=\box83
 \lst@token=\toks50
@@ -767,14 +768,14 @@ File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \lst@newlines=\count371
 \lst@lineno=\count372
 \lst@maxwidth=\dimen318
- (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count373
 \lst@skipnumbers=\count374
 \lst@framebox=\box84
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.cfg
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
@@ -785,16 +786,16 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
- (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks51
 \verbatim@line=\toks52
 \verbatim@in@stream=\read3
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/environ/environ.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (/usr/local/texlive/2026/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box85
@@ -810,30 +811,30 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box91
 \tcb@temp=\box92
 \tcb@temp=\box93
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+(C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tikzfill\tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
- (/usr/local/texlive/2026/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tikzfill\tikzfill-common.sty
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 \l__tikzfill_img_box=\box94
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+)) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/tcolorbox\tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+(C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/pdfcol\pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@testbox=\box95
 \tcb@totalupperbox=\box96
 \tcb@totallowerbox=\box97
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count378
-) (./bai1.aux)
+) (bai1.aux)
 \openout1 = `bai1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -856,7 +857,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 30.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/vntex/t5cmr.fd
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 30.
@@ -895,7 +896,7 @@ LaTeX Font Info:    ... okay on input line 30.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count379
 \scratchdimen=\dimen320
@@ -908,14 +909,14 @@ LaTeX Font Info:    ... okay on input line 30.
 \MPnumerator=\count383
 \makeMPintoPDFobject=\count384
 \everyMPtoPDFconversion=\toks54
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 30.
- (./bai1.out) (./bai1.out)
+ (bai1.out) (bai1.out)
 \@outlinefile=\write5
 \openout5 = `bai1.out'.
 
@@ -972,282 +973,289 @@ LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T5/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 30.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 30.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/translator\translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/translator\translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/translator\translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/translator\translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+) (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count385
- (./bai1.nav)
-<background.jpg, id=57, 803.0pt x 458.71375pt>
+ (bai1.nav)
+<background.jpg, id=52, 803.0pt x 458.71375pt>
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 59.
+Package pdftex.def Info: background.jpg  used on input line 58.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 59.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 58.
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [1
 
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./background.jpg>] (./bai1.toc)
+{C:/Users/hamin/scoop/apps/latex/current/texmfs/data/fonts/map/pdftex/pdftex.map} <./background.jpg>] (bai1.toc)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 64.
+Package pdftex.def Info: background.jpg  used on input line 63.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [2
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 87.
+Package pdftex.def Info: background.jpg  used on input line 86.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [3
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 111.
+Package pdftex.def Info: background.jpg  used on input line 110.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [4
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 111.
+Package pdftex.def Info: background.jpg  used on input line 110.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [5
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 111.
+Package pdftex.def Info: background.jpg  used on input line 110.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [6
 
 ]
 \openout4 = `bai1.vrb'.
 
- (./bai1.vrb
+ (bai1.vrb
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 4.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/vntex/t5cmtt.fd
+ (C:\Users\hamin\scoop\apps\latex\current\texmfs\install\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 133.
+Package pdftex.def Info: background.jpg  used on input line 132.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [7
 
-] (./bai1.vrb)
+] (bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 133.
+Package pdftex.def Info: background.jpg  used on input line 132.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [8
 
 ]
 \openout4 = `bai1.vrb'.
 
- (./bai1.vrb)
+ (bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 157.
+Package pdftex.def Info: background.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [9
 
-{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./bai1.vrb)
+]
+<codemau2.png, id=225, 1957.3125pt x 1322.9425pt>
+File: codemau2.png Graphic file (type png)
+<use codemau2.png>
+Package pdftex.def Info: codemau2.png  used on input line 153.
+(pdftex.def)             Requested size: 308.06367pt x 208.20305pt.
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 157.
+Package pdftex.def Info: background.jpg  used on input line 153.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [10
 
-]
+ <./codemau2.png>]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 169.
+Package pdftex.def Info: background.jpg  used on input line 165.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [11
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 192.
+Package pdftex.def Info: background.jpg  used on input line 188.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [12
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 216.
+Package pdftex.def Info: background.jpg  used on input line 212.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [13
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 216.
+Package pdftex.def Info: background.jpg  used on input line 212.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [14
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 216.
+Package pdftex.def Info: background.jpg  used on input line 212.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [15
 
 ]
 \openout4 = `bai1.vrb'.
 
- (./bai1.vrb)
+ (bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 239.
+Package pdftex.def Info: background.jpg  used on input line 235.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [16
 
-] (./bai1.vrb)
+] (bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 239.
+Package pdftex.def Info: background.jpg  used on input line 235.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [17
 
 ]
 \openout4 = `bai1.vrb'.
 
- (./bai1.vrb)
+ (bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 253.
+Package pdftex.def Info: background.jpg  used on input line 249.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [18
 
 ]
-<codemau1.png, id=386, 1220.56pt x 1322.9425pt>
+<codemau1.png, id=384, 1220.56pt x 1322.9425pt>
 File: codemau1.png Graphic file (type png)
 <use codemau1.png>
-Package pdftex.def Info: codemau1.png  used on input line 262.
+Package pdftex.def Info: codemau1.png  used on input line 258.
 (pdftex.def)             Requested size: 205.37926pt x 222.596pt.
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 262.
+Package pdftex.def Info: background.jpg  used on input line 258.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [19
 
  <./codemau1.png>]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 274.
+Package pdftex.def Info: background.jpg  used on input line 270.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [20
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 298.
+Package pdftex.def Info: background.jpg  used on input line 294.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [21
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 322.
+Package pdftex.def Info: background.jpg  used on input line 318.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [22
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 322.
+Package pdftex.def Info: background.jpg  used on input line 318.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [23
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 322.
+Package pdftex.def Info: background.jpg  used on input line 318.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [24
 
 ]
 \openout4 = `bai1.vrb'.
 
- (./bai1.vrb)
+ (bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 344.
+Package pdftex.def Info: background.jpg  used on input line 340.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [25
 
-] (./bai1.vrb)
+] (bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 344.
+Package pdftex.def Info: background.jpg  used on input line 340.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [26
 
 ]
 \openout4 = `bai1.vrb'.
 
- (./bai1.vrb)
-File: background.jpg Graphic file (type jpg)
-<use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 371.
-(pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
- [27
+ (bai1.vrb
+<codemau3.png, id=540, 1495.5875pt x 889.3225pt>
+File: codemau3.png Graphic file (type png)
+<use codemau3.png>
+Package pdftex.def Info: codemau3.png  used on input line 11.
+(pdftex.def)             Requested size: 220.78192pt x 131.2757pt.
+)
+Overfull \vbox (1.1425pt too high) detected at line 356
+ []
 
-] (./bai1.vrb)
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 371.
+Package pdftex.def Info: background.jpg  used on input line 356.
+(pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
+[27
+
+ <./codemau3.png>]
+File: background.jpg Graphic file (type jpg)
+<use background.jpg>
+Package pdftex.def Info: background.jpg  used on input line 367.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [28
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 383.
+Package pdftex.def Info: background.jpg  used on input line 394.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [29
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 410.
+Package pdftex.def Info: background.jpg  used on input line 394.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [30
 
 ]
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 410.
+Package pdftex.def Info: background.jpg  used on input line 400.
 (pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
  [31
-
-]
-File: background.jpg Graphic file (type jpg)
-<use background.jpg>
-Package pdftex.def Info: background.jpg  used on input line 416.
-(pdftex.def)             Requested size: 364.20155pt x 273.15855pt.
- [32
 
 ]
 \tf@nav=\write6
@@ -1259,27 +1267,26 @@ Package pdftex.def Info: background.jpg  used on input line 416.
 \tf@snm=\write8
 \openout8 = `bai1.snm'.
 
- (./bai1.aux)
+ (bai1.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `bai1.out' has not changed.
-(rerunfilecheck)             Checksum: E669FDFE6F08AB922F503A0A123DE538;416.
+(rerunfilecheck)             Checksum: A62E8015D9730E4DD1E01F0B25CC7734;314.
  ) 
 Here is how much of TeX's memory you used:
- 30735 strings out of 467525
- 631233 string characters out of 5418982
- 1037404 words of memory out of 5000000
- 58976 multiletter control sequences out of 15000+600000
+ 30751 strings out of 467871
+ 641361 string characters out of 5413518
+ 1034836 words of memory out of 5000000
+ 58966 multiletter control sequences out of 15000+600000
  645829 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,12n,123p,444b,937s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/vntex/vnr/vnss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/vntex/vnr/vnss17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/vntex/vnr/vnss8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on bai1.pdf (32 pages, 324727 bytes).
+ 128i,12n,123p,433b,937s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\hamin\scoop\apps\latex\current\texmfs/data\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/vntex/vnr/vnss10.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/vntex/vnr/vnss17.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/vntex/vnr/vnss8.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/vntex/vnr/vnssbx10.pfb><C:/Users/hamin/scoop/apps/latex/current/texmfs/install/fonts/type1/vntex/vnr/vntt10.pfb>
+Output written on bai1.pdf (31 pages, 527771 bytes).
 PDF statistics:
- 667 PDF objects out of 1000 (max. 8388607)
- 394 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
- 1329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 661 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 1343 words of extra memory for PDF output out of 10000 (max. 10000000)
 
