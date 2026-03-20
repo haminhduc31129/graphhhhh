@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773992393.99431 "c:/Users/Admin/Desktop/Github/graphhhhh/lythuyet/code.tex" "code.pdf" "code" 1773992400.29155 0
+["pdflatex"] 1773993647.41921 "c:/Users/Admin/Desktop/Github/graphhhhh/lythuyet/code.tex" "code.pdf" "code" 1773993655.26844 0
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773854521 102219 f7af30f781fecd7138034d612e875467 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcss1095.pk" 1773850122 11640 5e62af2f085dd080454378cd5246de1f ""
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762611015 13321867 9b8eacec9f675fda28a6afc915d0e752 ""
@@ -243,12 +243,12 @@
   "bfs1.png" 1773896527 147233 7c79b4e46b5d9b7ab744126934399242 ""
   "bfs2.png" 1773896527 119314 141429015aed50aa08d155342cb5850b ""
   "c:/Users/Admin/Desktop/Github/graphhhhh/lythuyet/code.tex" 1773992393 37847 0fcfb33e0a2f8d9cda4044e163fbda58 ""
-  "code.aux" 1773992399 8522 37303f1ffe2c58f0f21fb319990a16e7 "pdflatex"
-  "code.nav" 1773992399 5698 09b433237ad32bf84891b20e8e5b1fb3 "pdflatex"
-  "code.out" 1773992399 977 a0653fc123e23a6b6fd171321c1474e8 "pdflatex"
+  "code.aux" 1773993654 8522 37303f1ffe2c58f0f21fb319990a16e7 "pdflatex"
+  "code.nav" 1773993654 5698 09b433237ad32bf84891b20e8e5b1fb3 "pdflatex"
+  "code.out" 1773993654 977 a0653fc123e23a6b6fd171321c1474e8 "pdflatex"
   "code.tex" 1773992393 37847 0fcfb33e0a2f8d9cda4044e163fbda58 ""
-  "code.toc" 1773992399 411 86018e35c9d7294563cc51fbd71d114e "pdflatex"
-  "code.vrb" 1773992397 1182 b50d25becd015386a6fee91fde97f897 "pdflatex"
+  "code.toc" 1773993654 411 86018e35c9d7294563cc51fbd71d114e "pdflatex"
+  "code.vrb" 1773993651 1182 b50d25becd015386a6fee91fde97f897 "pdflatex"
   "cohuong-removebg-preview.png" 1773933829 20675 4868396684b4e9cf54a4646283f10781 ""
   "dadothu-removebg-preview.png" 1773933738 19143 b64f4a17a0525f41563c48dbb759094b ""
   "dfs1.png" 1773896527 111198 19b5712075d5e78a05ff512bfca48c26 ""
