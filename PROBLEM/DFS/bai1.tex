@@ -5,7 +5,7 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[T5]{fontenc}
-% \usepackage[vietnamese]{babel}
+\usepackage{hyperref}
 \usepackage{tikz}
 \usetikzlibrary{shadows}
 
@@ -29,7 +29,8 @@
 
 \begin{document}
 
-\section{Bài tập luyện tập}
+% ===== TITLE =====
+\section{Giới thiệu}
 
 \begin{frame}[plain]
     \centering
@@ -46,7 +47,7 @@
         ]
         \centering
         {\color{white}\LARGE \textbf{Bài Tập về đồ thị}}\\[0.2cm]
-        {\color{white}\large Những bài tập cơ bản nhất về dồ thị}
+        {\color{white}\large Những bài tập cơ bản nhất về đồ thị}
     \end{tcolorbox}
 
     \vspace{1.2cm}
@@ -54,10 +55,37 @@
     {\Large \textbf{Nguyễn Văn Phú - Hà Minh Đức - Nguyễn Tấn Đạt}}\\[0.4cm]
     THPT Chuyên ĐHV\\[0.6cm]
 
-    Ngày 18 tháng 3 năm 2026
+    March, 2026
 \end{frame}
 
-% ===== BÀI 1 =====
+% ===== TOC =====
+\begin{frame}{Mục lục}
+\tableofcontents
+\end{frame}
+
+% ================== BÀI 1 ==================
+\section{Bài 1}
+
+\begin{frame}[plain]
+\centering
+\vspace{2cm}
+
+\begin{tcolorbox}[
+    enhanced,
+    colback=blue!60,
+    colframe=blue!80!black,
+    width=0.6\textwidth,
+    arc=6mm,
+    boxrule=0pt,
+    drop shadow
+]
+\centering
+{\color{white}\Huge \textbf{Bài 1}}\\[0.3cm]
+{\color{white}\Large Đếm thành phần liên thông}
+\end{tcolorbox}
+
+\end{frame}
+
 \begin{frame}{Bài toán 1 - Đếm thành phần liên thông}
 
 \begin{block}{Đề bài}
@@ -67,23 +95,44 @@ Hãy đếm số \textbf{thành phần liên thông}.
 
 \pause
 
+\begin{block}{Giới hạn}
+\begin{itemize}
+    \item $1 \le n \le 10^5$
+    \item $1 \le m \le 2 \times 10^5$
+\end{itemize}
+\end{block}
+
+\pause
+
 \begin{alertblock}{Gợi ý}
 Sử dụng DFS hoặc BFS để duyệt từng thành phần.
 \end{alertblock}
 
+\end{frame}
+
+% TEST CASE
+\begin{frame}[fragile]{Ví dụ mẫu - Bài 1}
+
+\begin{tcolorbox}[title=Input]
+\begin{verbatim}
+5 3
+1 2
+2 3
+4 5
+\end{verbatim}
+\end{tcolorbox}
+
 \pause
 
-\begin{center}
-\textbf{Link tham khảo:}
-
-\vspace{0.3cm}
-
-\href{https://codeforces.com/problemset/problem/166/A}{\color{blue}{Click vào đây để luyện tập thêm}}
-\end{center}
+\begin{tcolorbox}[title=Output]
+\begin{verbatim}
+2
+\end{verbatim}
+\end{tcolorbox}
 
 \end{frame}
 
-% ===== SOLUTION 1 =====
+% SOLUTION 1
 \begin{frame}[fragile]{Solution - Bài 1}
 
 \begin{block}{Ý tưởng}
@@ -107,7 +156,41 @@ for u in V:
 
 \end{frame}
 
-% ===== BÀI 2 =====
+\begin{frame}{Bài toán 1 - Đếm thành phần liên thông}
+    \Huge
+\begin{center}
+\textbf{Bài tương tự để luyện tập:}
+
+\vspace{0.3cm}
+
+\href{https://cses.fi/problemset/task/1666}{\color{blue}{Building Roads - CSES}}\\
+\href{https://codeforces.com/problemset/problem/166/A}{\color{blue}{Rank List - Codeforces}}
+\end{center}
+\end{frame}
+
+% ================== BÀI 2 ==================
+\section{Bài 2}
+
+\begin{frame}[plain]
+\centering
+\vspace{2cm}
+
+\begin{tcolorbox}[
+    enhanced,
+    colback=blue!60,
+    colframe=blue!80!black,
+    width=0.6\textwidth,
+    arc=6mm,
+    boxrule=0pt,
+    drop shadow
+]
+\centering
+{\color{white}\Huge \textbf{Bài 2}}\\[0.3cm]
+{\color{white}\Large Đường đi ngắn nhất}
+\end{tcolorbox}
+
+\end{frame}
+
 \begin{frame}{Bài toán 2 - Đường đi ngắn nhất}
 
 \begin{block}{Đề bài}
@@ -117,23 +200,45 @@ Tìm khoảng cách ngắn nhất từ đỉnh $s$ đến tất cả các đỉn
 
 \pause
 
+\begin{block}{Giới hạn}
+\begin{itemize}
+    \item $1 \le n \le 2 \times 10^5$
+    \item $1 \le m \le 2 \times 10^5$
+\end{itemize}
+\end{block}
+
+\pause
+
 \begin{alertblock}{Gợi ý}
 Sử dụng BFS để đảm bảo đi theo từng lớp.
 \end{alertblock}
 
+\end{frame}
+
+% TEST CASE 2
+\begin{frame}[fragile]{Ví dụ mẫu - Bài 2}
+
+\begin{tcolorbox}[title=Input]
+\begin{verbatim}
+4 4 1
+1 2
+2 3
+1 4
+4 3
+\end{verbatim}
+\end{tcolorbox}
+
 \pause
 
-\begin{center}
-\textbf{Link tham khảo:}
-
-\vspace{0.3cm}
-
-\href{https://codeforces.com/problemset/problem/20/C}{\color{blue}{Click để thử sức}}
-\end{center}
+\begin{tcolorbox}[title=Output]
+\begin{verbatim}
+0 1 2 1
+\end{verbatim}
+\end{tcolorbox}
 
 \end{frame}
 
-% ===== SOLUTION 2 =====
+% SOLUTION 2
 \begin{frame}[fragile]{Solution - Bài 2}
 
 \begin{block}{Ý tưởng}
@@ -156,7 +261,42 @@ Sử dụng BFS để đảm bảo đi theo từng lớp.
     
 \end{frame}
 
-% ===== BÀI 3 =====
+\begin{frame}{Bài toán 2 - Đường đi ngắn nhất}
+    \Huge
+\begin{center}
+\textbf{Bài tương tự để luyện tập:}
+
+\vspace{0.3cm}
+
+\href{https://cses.fi/problemset/task/1667}{\color{blue}{Message Route - CSES}}\\
+\href{https://codeforces.com/problemset/problem/20/C}{\color{blue}{Dijkstra? - Codeforces}}
+\end{center}
+\end{frame}
+
+
+% ================== BÀI 3 ==================
+\section{Bài 3}
+
+\begin{frame}[plain]
+\centering
+\vspace{2cm}
+
+\begin{tcolorbox}[
+    enhanced,
+    colback=blue!60,
+    colframe=blue!80!black,
+    width=0.6\textwidth,
+    arc=6mm,
+    boxrule=0pt,
+    drop shadow
+]
+\centering
+{\color{white}\Huge \textbf{Bài 3}}\\[0.3cm]
+{\color{white}\Large Phát hiện chu trình}
+\end{tcolorbox}
+
+\end{frame}
+
 \begin{frame}{Bài toán 3 - Phát hiện chu trình}
 
 \begin{block}{Đề bài}
@@ -166,23 +306,44 @@ Kiểm tra xem đồ thị có chứa chu trình hay không.
 
 \pause
 
+\begin{block}{Giới hạn}
+\begin{itemize}
+    \item $1 \le n \le 10^5$
+    \item $1 \le m \le 2 \times 10^5$
+\end{itemize}
+\end{block}
+
+\pause
+
 \begin{alertblock}{Gợi ý}
 Dùng DFS và lưu đỉnh cha.
 \end{alertblock}
 
+\end{frame}
+
+% TEST CASE 3
+\begin{frame}[fragile]{Ví dụ mẫu - Bài 3}
+
+\begin{tcolorbox}[title=Input]
+\begin{verbatim}
+3 3
+1 2
+2 3
+3 1
+\end{verbatim}
+\end{tcolorbox}
+
 \pause
 
-\begin{center}
-\textbf{Link luyện tập:}
-
-\vspace{0.3cm}
-
-\href{https://cses.fi/problemset/task/1669}{\color{blue}{Cycle Detection - CSES}}
-\end{center}
+\begin{tcolorbox}[title=Output]
+\begin{verbatim}
+YES
+\end{verbatim}
+\end{tcolorbox}
 
 \end{frame}
 
-% ===== SOLUTION 3 =====
+% SOLUTION 3
 \begin{frame}[fragile]{Solution - Bài 3}
 
 \begin{block}{Ý tưởng}
@@ -209,7 +370,22 @@ DFS(u, parent):
 
 \end{frame}
 
-% ===== SLIDE TỔNG KẾT =====
+\begin{frame}{Bài toán 3 - Phát hiện chu trình}
+    \Huge
+\begin{center}
+\textbf{Bài tương tự để luyện tập:}
+
+\vspace{0.3cm}
+
+\href{https://codeforces.com/problemset/problem/510/B}{\color{blue}{Fox And Two Dots - Codeforces}}\\
+\href{https://cses.fi/problemset/task/1669}{\color{blue}{Cycle Detection - CSES}}
+\end{center}
+\end{frame}
+
+
+% ===== TỔNG KẾT =====
+\section{Tổng kết}
+
 \begin{frame}{Tổng kết luyện tập}
 
 \begin{block}{Những dạng quan trọng}
@@ -223,9 +399,20 @@ DFS(u, parent):
 \pause
 
 \begin{center}
-\Huge  \textcolor{orange}{Practice makes perfect!}
+\Huge  \textcolor{orange}{Practice makes perfect!}\\
 \end{center}
 
+\begin{center}
+\textcolor{blue}{Hãy luyện tập thêm ở các nền tảng mà}\\
+\textcolor{blue}{Slide lý thuyết cơ bản về đồ thị đã nêu.}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{}
+\begin{center}
+\Huge  \textcolor{orange}{CHÚC CÁC BẠN LUYỆN TẬP VUI VẺ!}
+\end{center}
 \end{frame}
 
 \end{document}

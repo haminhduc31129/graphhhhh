@@ -1,1 +1,5 @@
-\beamer@sectionintoc {1}{Bài tập luyện tập}{1}{0}{1}
+\beamer@sectionintoc {1}{Giới thiệu}{1}{0}{1}
+\beamer@sectionintoc {2}{Bài 1}{3}{0}{2}
+\beamer@sectionintoc {3}{Bài 2}{12}{0}{3}
+\beamer@sectionintoc {4}{Bài 3}{21}{0}{4}
+\beamer@sectionintoc {5}{Tổng kết}{30}{0}{5}
