@@ -1,0 +1,412 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{rose}
+
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{shadows}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\setbeamertemplate{caption}{\insertcaption}
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+\tcbuselibrary{skins,breakable}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usebackgroundtemplate{
+    \parbox[c][\paperheight][c]{\paperwidth}{
+        \includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}
+    }
+}
+
+\begin{document}
+
+% ===== TITLE =====
+
+\begin{frame}[plain]
+    \centering
+    \vspace{1cm}
+
+    \begin{tcolorbox}[
+            enhanced,
+            colback=blue!70!black,
+            colframe=blue!70!black,
+            width=0.75\textwidth,
+            arc=4mm,
+            boxrule=0pt,
+            drop shadow
+        ]
+        \centering
+        {\color{white}\LARGE \textbf{Bài Tập về}}\\[0.2cm]
+        {\color{white}\large Những bài tập cơ bản nhất về đồ thị}
+    \end{tcolorbox}
+
+    \vspace{1.2cm}
+
+    {\Large \textbf{Nguyễn Văn Phú - Hà Minh Đức - Nguyễn Tấn Đạt}}\\[0.4cm]
+    THPT Chuyên ĐHV\\[0.6cm]
+
+    March, 2026
+\end{frame}
+
+% ===== TOC =====
+\begin{frame}{Mục lục}
+    \begin{center}
+        \begin{block}{\textbf{Các bài tập}}
+            \begin{center}
+                \vfill
+                \begin{minipage}[c][0.5\textheight][c]{0.35\textwidth}
+                    \tableofcontents[sections={<+->}]
+                \end{minipage}
+                \vfill
+            \end{center}
+        \end{block}
+    \end{center}
+\end{frame}
+
+% ================== BÀI 1 ==================
+\section{Bài 1 - Đếm thành phần liên thông}
+
+\begin{frame}[plain]
+    \centering
+    \vspace{2cm}
+
+    \begin{tcolorbox}[
+            enhanced,
+            colback=blue!60,
+            colframe=blue!80!black,
+            width=0.6\textwidth,
+            arc=6mm,
+            boxrule=0pt,
+            drop shadow
+        ]
+        \centering
+        {\color{white}\Huge \textbf{Bài 1}}\\[0.3cm]
+        {\color{white}\Large Đếm thành phần liên thông}
+    \end{tcolorbox}
+
+\end{frame}
+
+\begin{frame}{Bài toán 1 - Đếm thành phần liên thông}
+
+    \begin{block}{Đề bài}
+        Cho một đồ thị vô hướng gồm $n$ đỉnh và $m$ cạnh.
+        Hãy đếm số \textbf{thành phần liên thông}.
+    \end{block}
+
+    \pause
+
+    \begin{block}{Giới hạn}
+        \begin{itemize}
+            \item $1 \le n \le 10^5$
+            \item $1 \le m \le 2 \times 10^5$
+        \end{itemize}
+    \end{block}
+
+    \pause
+
+    \begin{alertblock}{Gợi ý}
+        Sử dụng DFS hoặc BFS để duyệt từng thành phần.
+    \end{alertblock}
+
+\end{frame}
+
+% TEST CASE
+\begin{frame}[fragile]{Ví dụ mẫu - Bài 1}
+
+    \begin{tcolorbox}[title=Input]
+        \begin{verbatim}
+5 3
+1 2
+2 3
+4 5
+\end{verbatim}
+    \end{tcolorbox}
+
+    \pause
+
+    \begin{tcolorbox}[title=Output]
+        \begin{verbatim}
+2
+\end{verbatim}
+    \end{tcolorbox}
+
+\end{frame}
+
+% SOLUTION 1
+\begin{frame}[fragile]{Solution - Bài 1}
+
+    \begin{block}{Ý tưởng}
+        \begin{itemize}
+            \item Duyệt qua từng đỉnh
+            \item Nếu đỉnh chưa thăm → chạy DFS/BFS
+            \item Mỗi lần chạy → tăng số thành phần lên 1
+        \end{itemize}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Code tham khảo}
+    \begin{exampleblock}{}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]{codemau2.png}
+        \end{center}
+    \end{exampleblock}
+\end{frame}
+
+\begin{frame}{Bài toán 1 - Đếm thành phần liên thông}
+    \Huge
+    \begin{center}
+        \textbf{Bài tương tự để luyện tập:}
+
+        \vspace{0.3cm}
+
+        \href{https://cses.fi/problemset/task/1666}{\color{blue}{Building Roads - CSES}}\\
+        \href{https://codeforces.com/problemset/problem/166/A}{\color{blue}{Rank List - Codeforces}}
+    \end{center}
+\end{frame}
+
+% ================== BÀI 2 ==================
+\section{Bài 2 - Đường đi ngắn nhất}
+
+\begin{frame}[plain]
+    \centering
+    \vspace{2cm}
+
+    \begin{tcolorbox}[
+            enhanced,
+            colback=blue!60,
+            colframe=blue!80!black,
+            width=0.6\textwidth,
+            arc=6mm,
+            boxrule=0pt,
+            drop shadow
+        ]
+        \centering
+        {\color{white}\Huge \textbf{Bài 2}}\\[0.3cm]
+        {\color{white}\Large Đường đi ngắn nhất}
+    \end{tcolorbox}
+
+\end{frame}
+
+\begin{frame}{Bài toán 2 - Đường đi ngắn nhất}
+
+    \begin{block}{Đề bài}
+        Cho đồ thị không trọng số.
+        Tìm khoảng cách ngắn nhất từ đỉnh $s$ đến tất cả các đỉnh còn lại.
+    \end{block}
+
+    \pause
+
+    \begin{block}{Giới hạn}
+        \begin{itemize}
+            \item $1 \le n \le 2 \times 10^5$
+            \item $1 \le m \le 2 \times 10^5$
+        \end{itemize}
+    \end{block}
+
+    \pause
+
+    \begin{alertblock}{Gợi ý}
+        Sử dụng BFS để đảm bảo đi theo từng lớp.
+    \end{alertblock}
+
+\end{frame}
+
+% TEST CASE 2
+\begin{frame}[fragile]{Ví dụ mẫu - Bài 2}
+
+    \begin{tcolorbox}[title=Input]
+        \begin{verbatim}
+4 4 1
+1 2
+2 3
+1 4
+4 3
+\end{verbatim}
+    \end{tcolorbox}
+
+    \pause
+
+    \begin{tcolorbox}[title=Output]
+        \begin{verbatim}
+0 1 2 1
+\end{verbatim}
+    \end{tcolorbox}
+
+\end{frame}
+
+% SOLUTION 2
+\begin{frame}[fragile]{Solution - Bài 2}
+
+    \begin{block}{Ý tưởng}
+        \begin{itemize}
+            \item Khởi tạo khoảng cách $dist[s] = 0$
+            \item Dùng queue để BFS
+            \item Mỗi lần đi qua cạnh → cập nhật khoảng cách
+        \end{itemize}
+    \end{block}
+
+
+\end{frame}
+
+\begin{frame}
+    \begin{exampleblock}{Mã giả BFS}
+        \begin{center}
+            \includegraphics[width=0.6\textwidth]{codemau1.png}
+        \end{center}
+    \end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Bài toán 2 - Đường đi ngắn nhất}
+    \Huge
+    \begin{center}
+        \textbf{Bài tương tự để luyện tập:}
+
+        \vspace{0.3cm}
+
+        \href{https://cses.fi/problemset/task/1667}{\color{blue}{Message Route - CSES}}\\
+        \href{https://codeforces.com/problemset/problem/20/C}{\color{blue}{Dijkstra? - Codeforces}}
+    \end{center}
+\end{frame}
+
+
+% ================== BÀI 3 ==================
+\section{Bài 3 - Phát hiện chu trình}
+
+\begin{frame}[plain]
+    \centering
+    \vspace{2cm}
+
+    \begin{tcolorbox}[
+            enhanced,
+            colback=blue!60,
+            colframe=blue!80!black,
+            width=0.6\textwidth,
+            arc=6mm,
+            boxrule=0pt,
+            drop shadow
+        ]
+        \centering
+        {\color{white}\Huge \textbf{Bài 3}}\\[0.3cm]
+        {\color{white}\Large Phát hiện chu trình}
+    \end{tcolorbox}
+
+\end{frame}
+
+\begin{frame}{Bài toán 3 - Phát hiện chu trình}
+
+    \begin{block}{Đề bài}
+        Cho đồ thị vô hướng.
+        Kiểm tra xem đồ thị có chứa chu trình hay không.
+    \end{block}
+
+    \pause
+
+    \begin{block}{Giới hạn}
+        \begin{itemize}
+            \item $1 \le n \le 10^5$
+            \item $1 \le m \le 2 \times 10^5$
+        \end{itemize}
+    \end{block}
+
+    \pause
+
+    \begin{alertblock}{Gợi ý}
+        Dùng DFS và lưu đỉnh cha.
+    \end{alertblock}
+
+\end{frame}
+
+% TEST CASE 3
+\begin{frame}[fragile]{Ví dụ mẫu - Bài 3}
+
+    \begin{tcolorbox}[title=Input]
+        \begin{verbatim}
+3 3
+1 2
+2 3
+3 1
+\end{verbatim}
+    \end{tcolorbox}
+
+    \pause
+
+    \begin{tcolorbox}[title=Output]
+        \begin{verbatim}
+YES
+\end{verbatim}
+    \end{tcolorbox}
+
+\end{frame}
+
+% SOLUTION 3
+\begin{frame}[fragile]{Solution - Bài 3}
+
+    \begin{block}{Ý tưởng}
+        \begin{itemize}
+            \item Khi DFS từ $u$ sang $v$
+            \item Nếu $v$ đã thăm và $v \neq parent[u]$ → có chu trình
+        \end{itemize}
+    \end{block}
+    \begin{exampleblock}{Code tham khảo}
+        \begin{center}
+            \includegraphics[width=0.645\textwidth]{codemau3.png}
+        \end{center}
+    \end{exampleblock}
+\end{frame}
+\begin{frame}{Bài toán 3 - Phát hiện chu trình}
+    \Huge
+    \begin{center}
+        \textbf{Bài tương tự để luyện tập:}
+
+        \vspace{0.3cm}
+
+        \href{https://codeforces.com/problemset/problem/510/B}{\color{blue}{Fox And Two Dots - Codeforces}}\\
+        \href{https://cses.fi/problemset/task/1669}{\color{blue}{Cycle Detection - CSES}}
+    \end{center}
+\end{frame}
+
+
+% ===== TỔNG KẾT =====
+\section{Tổng kết}
+
+\begin{frame}{Tổng kết luyện tập}
+
+    \begin{block}{Những dạng quan trọng}
+        \begin{itemize}
+            \item DFS → thành phần liên thông, chu trình
+            \item BFS → đường đi ngắn nhất
+            \item Kết hợp → nhiều bài nâng cao
+        \end{itemize}
+    \end{block}
+
+    \pause
+
+    \begin{center}
+        \Huge  \textcolor{orange}{Practice makes perfect!}\\
+    \end{center}
+
+    \begin{center}
+        \textcolor{blue}{Hãy luyện tập thêm ở các nền tảng mà}\\
+        \textcolor{blue}{Slide lý thuyết cơ bản về đồ thị đã nêu.}
+    \end{center}
+
+\end{frame}
+
+\begin{frame}{}
+    \begin{center}
+        \Huge  \textcolor{orange}{CHÚC CÁC BẠN LUYỆN TẬP VUI VẺ!}
+    \end{center}
+\end{frame}
+
+\end{document}
